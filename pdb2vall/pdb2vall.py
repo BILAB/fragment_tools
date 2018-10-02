@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+""" 2018_10_02: Satot and YoshitakaM 
+   ver 1.0.1 
+"""
+
 from optparse import OptionParser
 from sys import exit, stderr, stdout
 from os import popen, system, path
@@ -191,8 +195,8 @@ else:
 
         if rsn > len( fasta_dict.keys()): break
 
-        if options.debug:
-            print rsn, "fasta_dict", fasta_dict[ rsn ], longer_names[ rsd ], "rsd from pdb"
+        #if options.debug:
+            #print rsn, "fasta_dict", fasta_dict[ rsn ], longer_names[ rsd ], "rsd from pdb"
 
         if fasta_dict[ rsn ] == longer_names[ rsd ]:
             xcord = line[30:38].strip()
@@ -202,9 +206,9 @@ else:
         else:
             stderr.write("ERROR: pdb2vall.py: for position %s of %s.pdb, xyz rsd from idealized pdb doesn't match the fasta from seqres\n" %( rsn, pdb )); exit()
 
-    if options.debug:
-        for index in idealized_pdb_xyz_dict.keys():
-            print index, idealized_pdb_xyz_dict[ index ]
+    #if options.debug:
+        #for index in idealized_pdb_xyz_dict.keys():
+            #print index, idealized_pdb_xyz_dict[ index ]
 
     # CB's XYZ COORDINATES FROM IDEALIZED PDB
     idealized_pdb_cbxyz_lines = jump_over_missing_density( fasta_output_fn, fasta_output_fn[:5], "cb")
@@ -214,8 +218,8 @@ else:
 
         if cbrsn > len( fasta_dict.keys()): break
 
-        if options.debug:
-            print cbrsn, "fasta_dict", fasta_dict[ cbrsn ], longer_names[ cbrsd ], "rsd from pdb"
+        #if options.debug:
+            #print cbrsn, "fasta_dict", fasta_dict[ cbrsn ], longer_names[ cbrsd ], "rsd from pdb"
 
         if fasta_dict[ cbrsn ] == longer_names[ cbrsd ]:
             if fasta_dict[ cbrsn ] != "G":
@@ -231,8 +235,8 @@ else:
         else:
             stderr.write("ERROR: pdb2vall.py: for position %s of %s.pdb, xyz rsd from idealized pdb doesn't match the fasta from seqres\n" %( cbrsn, pdb )); exit()
 
-    if options.debug:
-        for index in idealized_pdb_cbxyz_dict.keys():
+    #if options.debug:
+        #for index in idealized_pdb_cbxyz_dict.keys():
             print index, idealized_pdb_cbxyz_dict[ index ]
 
     # CENTROID's XYZ COORDINATES FROM IDEALIZED PDB
@@ -243,8 +247,8 @@ else:
 
         if cenrsn > len( fasta_dict.keys()): break
 
-        if options.debug:
-            print cenrsn, "fasta_dict", fasta_dict[ cenrsn ], longer_names[ cenrsd ], "rsd from pdb"
+        #if options.debug:
+            #print cenrsn, "fasta_dict", fasta_dict[ cenrsn ], longer_names[ cenrsd ], "rsd from pdb"
 
         if fasta_dict[ cenrsn ] == longer_names[ cenrsd ]:
                 cenxcord = line[30:38].strip()
@@ -254,9 +258,9 @@ else:
         else:
             stderr.write("ERROR: pdb2vall.py: for position %s of %s.pdb, xyz rsd from idealized pdb doesn't match the fasta from seqres\n" %( cenrsn, pdb )); exit()
 
-    if options.debug:
-        for index in idealized_pdb_cenxyz_dict.keys():
-            print index, idealized_pdb_cenxyz_dict[ index ]
+    #if options.debug:
+        #for index in idealized_pdb_cenxyz_dict.keys():
+            #print index, idealized_pdb_cenxyz_dict[ index ]
 
     ## TORSIONS FROM IDEALIZED PDB
     idealized_pdb_torsion_lines = jump_over_missing_density( fasta_output_fn, fasta_output_fn[:5], "torsion")
@@ -265,7 +269,9 @@ else:
         rsd = line.split()[1]
         secstr = line.split()[2]
 
-        if rsn > len( fasta_dict.keys()): break
+        if rsn > len( fasta_dict.keys()): 
+            break
+        
         if rsd == 'X': break
 
         if fasta_dict[ rsn ] == rsd :
@@ -277,8 +283,8 @@ else:
             secstr_dict[ rsn ]                = secstr
 
             ## CHECK WHETHER THE IDEALIZED_PHI, PSI IS SIMILAR TO DSSP_PHI, PSI - should I?
-
-            #print rsn, rsd, secstr, phi, psi, omega
+            if options.debug:
+                print rsn, rsd, secstr, phi, psi, omega
         else:
             stderr.write("ERROR:pdb2vall.py: for position %s of %s.pdb, torsions of rsd from idealized pdb doesn't match the fasta from seqres %s\n" %( rsn, pdb, rsd )); exit()
 
@@ -358,18 +364,24 @@ else:
 
     if options.debug:
         print "n_ali = %3d" % int(n_ali)
+        print "#---fastadict---#"
+        print fasta_dict.keys()
+
+        print "#---secstrdict---#"
+        print secstr_dict.keys()
 
 # OUTPUT vall file
 vall_out = open( pdb + ".vall", "w")
 for rsn in fasta_dict.keys():
-    if rsn > len( secstr_dict.keys()):
+    if rsn in missing_den_list:
+        if options.debug: print "missing_den"
+        continue
+    #if rsn > len( secstr_dict.keys()):
+    if not rsn in secstr_dict.keys():
         if options.debug: print "secstr_error"
         continue
     if rsn > len( fasta_dict.keys()):
         if options.debug: print "fasta_error"
-        continue
-    if rsn in missing_den_list:
-        if options.debug: print "missing_den"
         continue
     else:
         vall_out.write("%5s %1s %1s %5d %6.2f " %( pdb, fasta_dict[ rsn ], secstr_dict[ rsn ], rsn, pdb_bfactor_dict[ rsn ] ))
