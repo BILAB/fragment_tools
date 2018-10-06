@@ -132,8 +132,6 @@ if exists( fasta_output_fn[:5] + ".checkpoint" ):
 else:
     stderr.write("ERROR:pdb2vall.py: no ", fasta_output_fn[:5] + ".checkpoint file has been made!\n"); exit()
 
-exit()
-
 ## GET STRUCTURE PROFILE CHECKPOINT
 if not options.no_structure_profile:
     if exists("%s.50.9mers.ali.fasta.new.blast.checkpoint" % pdb):
@@ -141,7 +139,7 @@ if not options.no_structure_profile:
         print "-"*75
     else:
         cmd = script_get_structure_profile_checkpoint + " " + options.pdb_fn
-        print "pdb2vall.py get_structure_profile_checkpoint.py: making structure profile checkpoint..."
+        print "pdb2vall.py blastplus_get_structure_profile_checkpoint.py: making structure profile checkpoint..."
         print "cmd", cmd, "\n"
         print "-"*75
         if not options.dry_run:
