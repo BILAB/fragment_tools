@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-""" 2018_10_02: Satot and YoshitakaM
-   ver 1.0.1
+""" 2018_10_25: Satot and YoshitakaM
+   ver 1.0.3
    for BLAST+ modules
 """
 
@@ -56,7 +56,7 @@ if not PDB2VALL_PATH:
 
 script_make_sequence_profile_checkpoint = PDB2VALL_PATH + "sequence_profile_scripts/blastplus_run_psiblast.pl"
 fix_blast2chk = PDB2VALL_PATH + "sequence_profile_scripts/num_of_seq.sh"
-script_get_structure_profile_checkpoint = PDB2VALL_PATH + "structure_profile_scripts/get_structure_profile_checkpoint.py"
+script_get_structure_profile_checkpoint = PDB2VALL_PATH + "structure_profile_scripts/blastplus_get_structure_profile_checkpoint.py"
 relax_sequence_file = PDB2VALL_PATH + "relax_seqeuence_file.txt"
 
 ## ROSETTA APP

@@ -1,0 +1,778 @@
+job id: 210699
+read solute atoms, totaling 1923 atoms
+
+iteration: 1
+cavity size: 4.2
+action: rotate along yz-axis by 141.978 degree
+action: translate along x-axis by 1.90505Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 75.7611Å 72.1723Å 66.4515Å 
+solvent box dimension: 4 4 4
+x max,min: 75.071 -2.288
+y max,min: 75.401 -1.829
+z max,min: 75.441 -2.549
+cell-length: 6 A
+cell dimension: 13 13 13
+add solvent ... done
+total number of surface solvent molecule added: 13824
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1458 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2341
+	scanning layer 2 ... possible cavity solvent number: 91
+	scanning layer 3 ... possible cavity solvent number: 29
+done 
+removed 168 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1290
+finished iteration 1
+
+
+iteration: 2
+cavity size: 4.2
+action: rotate along xy-axis by 328.193 degree
+action: translate along x-axis by 1.67126Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 52.5025Å 96.9746Å 53.034Å 
+solvent box dimension: 3 6 3
+x max,min: 56.071 -2.288
+y max,min: 113.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 10 20 10
+add solvent ... done
+total number of surface solvent molecule added: 11664
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1478 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2345
+	scanning layer 2 ... possible cavity solvent number: 90
+	scanning layer 3 ... possible cavity solvent number: 24
+done 
+removed 159 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1242
+finished iteration 2
+
+
+iteration: 3
+cavity size: 4.2
+action: rotate along xy-axis by 276.563 degree
+action: translate along x-axis by -0.922753Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 83.1147Å 76.8484Å 53.034Å 
+solvent box dimension: 5 5 3
+x max,min: 94.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 17 17 10
+add solvent ... done
+total number of surface solvent molecule added: 16200
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1485 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2368
+	scanning layer 2 ... possible cavity solvent number: 89
+	scanning layer 3 ... possible cavity solvent number: 24
+done 
+removed 155 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1245
+finished iteration 3
+
+
+iteration: 4
+cavity size: 4.2
+action: rotate along xz-axis by 171.863 degree
+action: translate along x-axis by 0.302232Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 72.7958Å 85.299Å 51.265Å 
+solvent box dimension: 4 5 3
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 10
+add solvent ... done
+total number of surface solvent molecule added: 12960
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1467 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2346
+	scanning layer 2 ... possible cavity solvent number: 92
+	scanning layer 3 ... possible cavity solvent number: 21
+done 
+removed 164 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1305
+finished iteration 4
+
+
+iteration: 5
+cavity size: 4.2
+action: rotate along yz-axis by 184.824 degree
+action: translate along x-axis by -0.757207Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 73.0063Å 85.2006Å 50.6813Å 
+solvent box dimension: 4 5 3
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 10
+add solvent ... done
+total number of surface solvent molecule added: 12960
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1459 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2304
+	scanning layer 2 ... possible cavity solvent number: 82
+done 
+removed 148 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1248
+finished iteration 5
+
+
+iteration: 6
+cavity size: 4.2
+action: rotate along yz-axis by 228.856 degree
+action: translate along x-axis by 2.33069Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 76.7827Å 68.7769Å 70.0837Å 
+solvent box dimension: 5 4 4
+x max,min: 94.071 -2.288
+y max,min: 75.401 -1.829
+z max,min: 75.441 -2.549
+cell-length: 6 A
+cell dimension: 17 13 13
+add solvent ... done
+total number of surface solvent molecule added: 17280
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1458 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2321
+	scanning layer 2 ... possible cavity solvent number: 89
+	scanning layer 3 ... possible cavity solvent number: 26
+done 
+removed 154 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1296
+finished iteration 6
+
+
+iteration: 7
+cavity size: 4.2
+action: rotate along xy-axis by 218.509 degree
+action: translate along x-axis by -2.00703Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 98.4171Å 55.6387Å 53.034Å 
+solvent box dimension: 6 3 3
+x max,min: 113.071 -2.288
+y max,min: 56.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 20 10 10
+add solvent ... done
+total number of surface solvent molecule added: 11664
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1467 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2340
+	scanning layer 2 ... possible cavity solvent number: 96
+	scanning layer 3 ... possible cavity solvent number: 19
+done 
+removed 167 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1257
+finished iteration 7
+
+
+iteration: 8
+cavity size: 4.2
+action: rotate along yz-axis by 49.4034 degree
+action: translate along x-axis by -1.43983Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 74.6446Å 68.381Å 70.4624Å 
+solvent box dimension: 4 4 4
+x max,min: 75.071 -2.288
+y max,min: 75.401 -1.829
+z max,min: 75.441 -2.549
+cell-length: 6 A
+cell dimension: 13 13 13
+add solvent ... done
+total number of surface solvent molecule added: 13824
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1483 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2372
+	scanning layer 2 ... possible cavity solvent number: 98
+done 
+removed 163 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1230
+finished iteration 8
+
+
+iteration: 9
+cavity size: 4.2
+action: rotate along xy-axis by 144.34 degree
+action: translate along x-axis by -1.9226Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 53.1703Å 97.0936Å 53.034Å 
+solvent box dimension: 3 6 3
+x max,min: 56.071 -2.288
+y max,min: 113.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 10 20 10
+add solvent ... done
+total number of surface solvent molecule added: 11664
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1461 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2329
+	scanning layer 2 ... possible cavity solvent number: 81
+	scanning layer 3 ... possible cavity solvent number: 17
+done 
+removed 148 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1278
+finished iteration 9
+
+
+iteration: 10
+cavity size: 4.2
+action: rotate along xy-axis by 359.613 degree
+action: translate along x-axis by -2.19067Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 76.0877Å 85.581Å 53.034Å 
+solvent box dimension: 5 5 3
+x max,min: 94.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 17 17 10
+add solvent ... done
+total number of surface solvent molecule added: 16200
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1459 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2369
+	scanning layer 2 ... possible cavity solvent number: 92
+	scanning layer 3 ... possible cavity solvent number: 24
+	scanning layer 4 ... possible cavity solvent number: 7
+	scanning layer 5 ... possible cavity solvent number: 2
+	scanning layer 6 ... possible cavity solvent number: 1
+	scanning layer 7 ... possible cavity solvent number: 1
+done 
+removed 170 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1272
+finished iteration 10
+
+
+iteration: 11
+cavity size: 4.2
+action: rotate along xz-axis by 302.08 degree
+action: translate along x-axis by 0.0724216Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 60.7736Å 85.299Å 62.8722Å 
+solvent box dimension: 4 5 4
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 75.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 13
+add solvent ... done
+total number of surface solvent molecule added: 17280
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1477 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2383
+	scanning layer 2 ... possible cavity solvent number: 94
+	scanning layer 3 ... possible cavity solvent number: 27
+done 
+removed 163 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1239
+finished iteration 11
+
+
+iteration: 12
+cavity size: 4.2
+action: rotate along xz-axis by 229.519 degree
+action: translate along x-axis by -1.14222Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 59.9929Å 85.299Å 67.4312Å 
+solvent box dimension: 4 5 4
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 75.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 13
+add solvent ... done
+total number of surface solvent molecule added: 17280
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1475 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2349
+	scanning layer 2 ... possible cavity solvent number: 91
+	scanning layer 3 ... possible cavity solvent number: 27
+	scanning layer 4 ... possible cavity solvent number: 11
+done 
+removed 166 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1260
+finished iteration 12
+
+
+iteration: 13
+cavity size: 4.2
+action: rotate along xy-axis by 350.199 degree
+action: translate along x-axis by -0.0359352Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 63.9312Å 91.3804Å 53.034Å 
+solvent box dimension: 4 5 3
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 10
+add solvent ... done
+total number of surface solvent molecule added: 12960
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1489 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2325
+	scanning layer 2 ... possible cavity solvent number: 99
+	scanning layer 3 ... possible cavity solvent number: 21
+	scanning layer 4 ... possible cavity solvent number: 3
+	scanning layer 5 ... possible cavity solvent number: 1
+done 
+removed 168 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1170
+finished iteration 13
+
+
+iteration: 14
+cavity size: 4.2
+action: rotate along yz-axis by 189.628 degree
+action: translate along x-axis by 1.5196Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 74.836Å 84.6596Å 49.6774Å 
+solvent box dimension: 4 5 3
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 10
+add solvent ... done
+total number of surface solvent molecule added: 12960
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1484 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2373
+	scanning layer 2 ... possible cavity solvent number: 97
+	scanning layer 3 ... possible cavity solvent number: 27
+done 
+removed 169 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1227
+finished iteration 14
+
+
+iteration: 15
+cavity size: 4.2
+action: rotate along xy-axis by 320.951 degree
+action: translate along x-axis by -0.55872Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 51.4515Å 96.8827Å 53.034Å 
+solvent box dimension: 3 6 3
+x max,min: 56.071 -2.288
+y max,min: 113.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 10 20 10
+add solvent ... done
+total number of surface solvent molecule added: 11664
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1466 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2354
+	scanning layer 2 ... possible cavity solvent number: 82
+done 
+removed 151 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1206
+finished iteration 15
+
+
+iteration: 16
+cavity size: 4.2
+action: rotate along yz-axis by 290.781 degree
+action: translate along x-axis by -0.826233Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 73.172Å 50.1861Å 82.3266Å 
+solvent box dimension: 4 3 5
+x max,min: 75.071 -2.288
+y max,min: 56.401 -1.829
+z max,min: 94.441 -2.549
+cell-length: 6 A
+cell dimension: 13 10 17
+add solvent ... done
+total number of surface solvent molecule added: 12960
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1469 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2361
+	scanning layer 2 ... possible cavity solvent number: 81
+done 
+removed 146 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1263
+finished iteration 16
+
+
+iteration: 17
+cavity size: 4.2
+action: rotate along xz-axis by 341.758 degree
+action: translate along x-axis by -2.40937Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 77.283Å 85.299Å 48.4705Å 
+solvent box dimension: 5 5 3
+x max,min: 94.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 17 17 10
+add solvent ... done
+total number of surface solvent molecule added: 16200
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1477 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2351
+	scanning layer 2 ... possible cavity solvent number: 88
+	scanning layer 3 ... possible cavity solvent number: 20
+done 
+removed 159 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1197
+finished iteration 17
+
+
+iteration: 18
+cavity size: 4.2
+action: rotate along xz-axis by 69.197 degree
+action: translate along x-axis by -2.31809Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 53.1452Å 85.299Å 71.0643Å 
+solvent box dimension: 3 5 4
+x max,min: 56.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 75.441 -2.549
+cell-length: 6 A
+cell dimension: 10 17 13
+add solvent ... done
+total number of surface solvent molecule added: 12960
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1467 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2336
+	scanning layer 2 ... possible cavity solvent number: 88
+	scanning layer 3 ... possible cavity solvent number: 19
+	scanning layer 4 ... possible cavity solvent number: 7
+done 
+removed 153 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1230
+finished iteration 18
+
+
+iteration: 19
+cavity size: 4.2
+action: rotate along xy-axis by 125.601 degree
+action: translate along x-axis by 2.1853Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 63.2687Å 92.3516Å 53.034Å 
+solvent box dimension: 4 5 3
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 10
+add solvent ... done
+total number of surface solvent molecule added: 12960
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1479 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2365
+	scanning layer 2 ... possible cavity solvent number: 97
+	scanning layer 3 ... possible cavity solvent number: 27
+done 
+removed 165 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1230
+finished iteration 19
+
+
+iteration: 20
+cavity size: 4.2
+action: rotate along xy-axis by 164.773 degree
+action: translate along x-axis by -2.68787Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 66.8125Å 93.7679Å 53.034Å 
+solvent box dimension: 4 5 3
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 10
+add solvent ... done
+total number of surface solvent molecule added: 12960
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1464 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2360
+	scanning layer 2 ... possible cavity solvent number: 89
+	scanning layer 3 ... possible cavity solvent number: 20
+done 
+removed 153 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1284
+finished iteration 20
+
+
+iteration: 21
+cavity size: 4.2
+action: rotate along yz-axis by 349.428 degree
+action: translate along x-axis by -1.46563Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 74.7065Å 84.1439Å 57.1699Å 
+solvent box dimension: 4 5 4
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 75.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 13
+add solvent ... done
+total number of surface solvent molecule added: 17280
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1494 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2364
+	scanning layer 2 ... possible cavity solvent number: 98
+	scanning layer 3 ... possible cavity solvent number: 25
+done 
+removed 171 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1248
+finished iteration 21
+
+
+iteration: 22
+cavity size: 4.2
+action: rotate along xz-axis by 95.9997 degree
+action: translate along x-axis by 1.96515Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 58.6319Å 85.299Å 69.7827Å 
+solvent box dimension: 4 5 4
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 75.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 13
+add solvent ... done
+total number of surface solvent molecule added: 17280
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1472 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2360
+	scanning layer 2 ... possible cavity solvent number: 82
+done 
+removed 150 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1200
+finished iteration 22
+
+
+iteration: 23
+cavity size: 4.2
+action: rotate along xz-axis by 273.69 degree
+action: translate along x-axis by -0.698841Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 55.3064Å 85.299Å 70.3993Å 
+solvent box dimension: 3 5 4
+x max,min: 56.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 75.441 -2.549
+cell-length: 6 A
+cell dimension: 10 17 13
+add solvent ... done
+total number of surface solvent molecule added: 12960
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1476 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2332
+	scanning layer 2 ... possible cavity solvent number: 85
+done 
+removed 158 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1245
+finished iteration 23
+
+
+iteration: 24
+cavity size: 4.2
+action: rotate along xy-axis by 191.378 degree
+action: translate along x-axis by 0.939253Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 82.7245Å 77.5241Å 53.034Å 
+solvent box dimension: 5 5 3
+x max,min: 94.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 56.441 -2.549
+cell-length: 6 A
+cell dimension: 17 17 10
+add solvent ... done
+total number of surface solvent molecule added: 16200
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1471 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2352
+	scanning layer 2 ... possible cavity solvent number: 85
+	scanning layer 3 ... possible cavity solvent number: 24
+done 
+removed 157 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1194
+finished iteration 24
+
+
+iteration: 25
+cavity size: 4.2
+action: rotate along yz-axis by 335.461 degree
+action: translate along x-axis by -0.349229Å
+rotate solute atoms done
+bufferspace: 12.68Å 
+lengths: 72.0271Å 79.3857Å 60.6099Å 
+solvent box dimension: 4 5 4
+x max,min: 75.071 -2.288
+y max,min: 94.401 -1.829
+z max,min: 75.441 -2.549
+cell-length: 6 A
+cell dimension: 13 17 13
+add solvent ... done
+total number of surface solvent molecule added: 17280
+assign cell-indices to solute solvent... 
+assigned, build neighbour list
+removing clashing atoms ... done
+removed 1459 clashing solvent molecules
+computing cavity solvents ... 
+	scanning layer 1 ... possible cavity solvent number: 2345
+	scanning layer 2 ... possible cavity solvent number: 82
+done 
+removed 153 solvent molecules in cavities or distant solvent molecule
+computing depth value ... 
+computing surface solvent
+finished computing non-redundant surface solvent: 1233
+finished iteration 25
+

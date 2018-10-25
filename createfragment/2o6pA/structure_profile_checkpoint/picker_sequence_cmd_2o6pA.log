@@ -1,0 +1,146 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: rosetta.source.release-188 r188 2018.33+release.7111c54 7111c54c14ba9a53c012a524f8f1438a8e3fb020 https://www.rosettacommons.org 2018-08-14T01:44:18.723947
+core.init: command: /home/apps/Rosetta3.10/main/source/bin/fragment_picker @picker_sequence_cmd_2o6pA.txt -ignore_unrecognized_res true -j 1
+core.init: 'RNG device' seed mode, using '/dev/urandom', seed=1136240778 seed_offset=0 real_seed=1136240778
+core.init.random: RandomGenerator:init: Normal mode, seed=1136240778 RG_type=mt19937
+protocols.frag_picker.FragmentPicker: reading a query sequence from: 2o6pA.fasta
+protocols.frag_picker.FragmentPicker: [ WARNING ] CAUTION: No sequence profile supplied. Profile-dependant options/scoring will not work.
+protocols.frag_picker.FragmentPicker: picking fragments for query sequence: GSDSGTLNYEVYKYNTNDTSIANDYFNKPAKYIKKNGKLYVQITVNHSHWITGMSIEGHKENIISKNTAKDERTSEFEVSKLNGKIDGKIDVYIDEKVNGKPFKYDHHYNITYKFNGPTDVAG
+protocols.frag_picker.VallProvider: vallChunksFromLibrary
+protocols.frag_picker.VallProvider: Reading Vall library from /data4/moriwaki/fragment_tools/pdb2vall/structure_profile_scripts/residue_depth_vall/residue_depth_full_cullpdb_pc30_res2.0_R0.3_d110930_chains6280.4278.vall.gz ... startline: 1  endline: 0
+protocols.frag_picker.VallProvider: ... done.  Read 1454669 lines.  Time elapsed: 3 seconds.
+protocols.frag_picker.VallProvider: Total chunks: 9192
+protocols.frag_picker.VallProvider: Largest chunk: 1244 aa
+core.chemical.GlobalResidueTypeSet: Finished initializing fa_standard residue type set.  Created 617 residue types
+core.chemical.GlobalResidueTypeSet: Total time to initialize 0.66 seconds.
+protocols.frag_picker.FragmentPicker: Will pick fragments of size:9 
+protocols.frag_picker.FragmentPicker: Creating fragment scoring scheme
+protocols.frag_picker.scores.FragmentCrmsdResDepth: Reference structure to score fragments by crmsd loaded from: 2o6pA.pdb
+core.import_pose.import_pose: File '2o6pA.pdb' automatically determined to be of type PDB
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue GLY:CtermProteinFull 123
+protocols.frag_picker.scores.FragmentCrmsd: Reference structure to score fragments by crmsd loaded from: 2o6pA.pdb
+core.import_pose.import_pose: File '2o6pA.pdb' automatically determined to be of type PDB
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue GLY:CtermProteinFull 123
+protocols.frag_picker.scores.FragmentDME: Reference structure to score fragments by DME loaded from: 2o6pA.pdb
+core.import_pose.import_pose: File '2o6pA.pdb' automatically determined to be of type PDB
+core.conformation.Conformation: [ WARNING ] missing heavyatom:  OXT on residue GLY:CtermProteinFull 123
+protocols.frag_picker.FragmentPicker: Picking 50 fragments based on 500 candidates
+protocols.frag_picker.FragmentPicker: Creating fragment scoring scheme for the selection step
+protocols.frag_picker.FragmentPicker: Collector for fragment size: 9 set to: BoundedCollector
+protocols.frag_picker.FragmentPicker: Fragment scoring scheme used:
+-----------------------------------------
+id    fragment score method name   weight
+  1          FragmentCrmsdResDepth    1
+  2                  FragmentCrmsd    0
+  3                    FragmentDME    0
+-----------------------------------------
+
+protocols.frag_picker.FragmentPicker: 
+fragment_picker: After setup; size of a query is: 123
+fragment_picker: Picking candidates
+fragment_picker: Running bounded protocol
+protocols.frag_picker.FragmentPicker: pick fragments using bounded protocol...
+protocols.frag_picker.FragmentPicker: Picking candidates...
+protocols.frag_picker.FragmentPicker: 0% done at 1xak
+protocols.frag_picker.FragmentPicker: 1% done at 2ah5
+protocols.frag_picker.FragmentPicker: 2% done at 2bon
+protocols.frag_picker.FragmentPicker: 3% done at 2wsd
+protocols.frag_picker.FragmentPicker: 4% done at 3qij
+protocols.frag_picker.FragmentPicker: 5% done at 3e0e
+protocols.frag_picker.FragmentPicker: 6% done at 3neu
+protocols.frag_picker.FragmentPicker: 7% done at 1efd
+protocols.frag_picker.FragmentPicker: 8% done at 1so7
+protocols.frag_picker.FragmentPicker: 9% done at 3lui
+protocols.frag_picker.FragmentPicker: 10% done at 2o0a
+protocols.frag_picker.FragmentPicker: 11% done at 2dpm
+protocols.frag_picker.FragmentPicker: 12% done at 2h1c
+protocols.frag_picker.FragmentPicker: 13% done at 1p6o
+protocols.frag_picker.FragmentPicker: 14% done at 1llf
+protocols.frag_picker.FragmentPicker: 15% done at 3bdi
+protocols.frag_picker.FragmentPicker: 16% done at 3pv7
+protocols.frag_picker.FragmentPicker: 17% done at 1uz3
+protocols.frag_picker.FragmentPicker: 18% done at 3ed7
+protocols.frag_picker.FragmentPicker: 19% done at 2c92
+protocols.frag_picker.FragmentPicker: 20% done at 1p5d
+protocols.frag_picker.FragmentPicker: 21% done at 1orr
+protocols.frag_picker.FragmentPicker: 22% done at 2b82
+protocols.frag_picker.FragmentPicker: 23% done at 3c6k
+protocols.frag_picker.FragmentPicker: 24% done at 2pma
+protocols.frag_picker.FragmentPicker: 25% done at 2qac
+protocols.frag_picker.FragmentPicker: 26% done at 2qcv
+protocols.frag_picker.FragmentPicker: 27% done at 3kwe
+protocols.frag_picker.FragmentPicker: 28% done at 2wj9
+protocols.frag_picker.FragmentPicker: 29% done at 3o7b
+protocols.frag_picker.FragmentPicker: 30% done at 1nba
+protocols.frag_picker.FragmentPicker: 31% done at 2gke
+protocols.frag_picker.FragmentPicker: 32% done at 3q0i
+protocols.frag_picker.FragmentPicker: 33% done at 3dff
+protocols.frag_picker.FragmentPicker: 34% done at 2prs
+protocols.frag_picker.FragmentPicker: 35% done at 2ibn
+protocols.frag_picker.FragmentPicker: 36% done at 2hs1
+protocols.frag_picker.FragmentPicker: 37% done at 1fcy
+protocols.frag_picker.FragmentPicker: 38% done at 2gcu
+protocols.frag_picker.FragmentPicker: 39% done at 1sra
+protocols.frag_picker.FragmentPicker: 40% done at 1u7l
+protocols.frag_picker.FragmentPicker: 41% done at 2e6m
+protocols.frag_picker.FragmentPicker: 42% done at 2w18
+protocols.frag_picker.FragmentPicker: 43% done at 2zws
+protocols.frag_picker.FragmentPicker: 44% done at 1b9m
+protocols.frag_picker.FragmentPicker: 45% done at 2vy8
+protocols.frag_picker.FragmentPicker: 46% done at 1syy
+protocols.frag_picker.FragmentPicker: 47% done at 1mkk
+protocols.frag_picker.FragmentPicker: 48% done at 2h5c
+protocols.frag_picker.FragmentPicker: 49% done at 2fd4
+protocols.frag_picker.FragmentPicker: 50% done at 2gia
+protocols.frag_picker.FragmentPicker: 51% done at 3fid
+protocols.frag_picker.FragmentPicker: 52% done at 2q8k
+protocols.frag_picker.FragmentPicker: 53% done at 3huu
+protocols.frag_picker.FragmentPicker: 54% done at 3ipi
+protocols.frag_picker.FragmentPicker: 55% done at 3ckm
+protocols.frag_picker.FragmentPicker: 56% done at 2dc4
+protocols.frag_picker.FragmentPicker: 57% done at 3nr5
+protocols.frag_picker.FragmentPicker: 58% done at 3rfx
+protocols.frag_picker.FragmentPicker: 59% done at 2gvi
+protocols.frag_picker.FragmentPicker: 60% done at 3e0x
+protocols.frag_picker.FragmentPicker: 61% done at 3s9x
+protocols.frag_picker.FragmentPicker: 62% done at 3fci
+protocols.frag_picker.FragmentPicker: 63% done at 3gbg
+protocols.frag_picker.FragmentPicker: 64% done at 2fa5
+protocols.frag_picker.FragmentPicker: 65% done at 2wq4
+protocols.frag_picker.FragmentPicker: 66% done at 2p4h
+protocols.frag_picker.FragmentPicker: 67% done at 1tua
+protocols.frag_picker.FragmentPicker: 68% done at 2fa1
+protocols.frag_picker.FragmentPicker: 69% done at 3orh
+protocols.frag_picker.FragmentPicker: 70% done at 2wz9
+protocols.frag_picker.FragmentPicker: 71% done at 1vi4
+protocols.frag_picker.FragmentPicker: 72% done at 1wvh
+protocols.frag_picker.FragmentPicker: 73% done at 1bgf
+protocols.frag_picker.FragmentPicker: 74% done at 1hm9
+protocols.frag_picker.FragmentPicker: 75% done at 2zq0
+protocols.frag_picker.FragmentPicker: 76% done at 2byw
+protocols.frag_picker.FragmentPicker: 77% done at 3a1g
+protocols.frag_picker.FragmentPicker: 78% done at 3hty
+protocols.frag_picker.FragmentPicker: 79% done at 3qy9
+protocols.frag_picker.FragmentPicker: 80% done at 2r2c
+protocols.frag_picker.FragmentPicker: 81% done at 3fia
+protocols.frag_picker.FragmentPicker: 82% done at 3op8
+protocols.frag_picker.FragmentPicker: 83% done at 3rg8
+protocols.frag_picker.FragmentPicker: 84% done at 3lsz
+protocols.frag_picker.FragmentPicker: 85% done at 3jx9
+protocols.frag_picker.FragmentPicker: 86% done at 1y0u
+protocols.frag_picker.FragmentPicker: 87% done at 1lsl
+protocols.frag_picker.FragmentPicker: 88% done at 3npf
+protocols.frag_picker.FragmentPicker: 89% done at 2j8m
+protocols.frag_picker.FragmentPicker: 90% done at 3phx
+protocols.frag_picker.FragmentPicker: 91% done at 2vdf
+protocols.frag_picker.FragmentPicker: 92% done at 3h7c
+protocols.frag_picker.FragmentPicker: 93% done at 2fe3
+protocols.frag_picker.FragmentPicker: 94% done at 2y43
+protocols.frag_picker.FragmentPicker: 95% done at 3bg2
+protocols.frag_picker.FragmentPicker: 96% done at 2q43
+protocols.frag_picker.FragmentPicker: 97% done at 3cmg
+protocols.frag_picker.FragmentPicker: 98% done at 2c2u
+protocols.frag_picker.FragmentPicker: 98% done at 3pa3
+protocols.frag_picker.FragmentPicker: 99% done at 1zvt
+protocols.frag_picker.FragmentPicker: ... done.  Processed 9192 chunks.  Time elapsed: 1094 seconds.
+protocols.frag_picker.FragmentPicker: Saving Fragments...

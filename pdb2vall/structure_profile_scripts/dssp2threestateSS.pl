@@ -9,7 +9,22 @@ use FindBin qw($Bin);
 # Rosetta.
 # James Thompson <tex@u.washington.edu>
 
-my $dssp_binary = "$Bin/dssp/dssp";
+
+# possible mkdssp locations
+my @dssp_binary = (
+	"/usr/bin/mkdssp", # system location
+	"/usr/local/bin/mkdssp", # installed location
+	"$Bin/dssp/dssp"	# pdb2vall location
+);
+
+# find blastpgp
+my $dssp_binary;
+foreach my $b (@dssp_binary) {
+	if (-s $b) {
+		$dssp_binary = $b;
+		last;
+	}
+}
 
 # read config
 open(F, "$Bin/../pdb2vall.cfg") or die "ERROR! cannot open config file $Bin/../pdb2vall.cfg: $!\n";

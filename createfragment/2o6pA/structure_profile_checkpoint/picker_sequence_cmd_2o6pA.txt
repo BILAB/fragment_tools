@@ -1,0 +1,12 @@
+-frags::write_sequence_only
+-in:file:fasta		2o6pA.fasta
+-frags::describe_fragments     2o6pA_frags.fsc
+-in::path::database     /home/apps/Rosetta3.10/main/database
+-in::file::vall         /data4/moriwaki/fragment_tools/pdb2vall/structure_profile_scripts/residue_depth_vall/residue_depth_full_cullpdb_pc30_res2.0_R0.3_d110930_chains6280.4278.vall.gz
+-frags::n_candidates	500
+-frags::n_frags		50
+-frags::frag_sizes	9
+-out::file::frag_prefix 2o6pA
+-frags::scoring::config picker_sequence_scores_2o6pA.cfg
+-frags::depth           2o6pA.depth-residue.depth
+-in:file:s              2o6pA.pdb

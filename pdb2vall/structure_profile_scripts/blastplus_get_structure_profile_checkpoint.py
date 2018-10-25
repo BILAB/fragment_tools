@@ -22,6 +22,7 @@ def get_structure_profile_checkpoint( template_fn ):
     script_get_fasta_from_pdb                     = PDB2VALL_PATH + "pdb_scripts/pdb2fasta.py"
     script_make_alignment_from_fragfile           = PDB2VALL_PATH + "structure_profile_scripts/make_alignment_from_fragfile.pl"
     script_create_checkpoint_from_fasta_alignment = PDB2VALL_PATH + "structure_profile_scripts/blastplus_create_checkpoint_from_fasta_alignment.pl"
+    struct_create_checkpoint_from_fasta_alignment = PDB2VALL_PATH + "structure_profile_scripts/blastplus_create_checkpoint_from_fasta.py"
 
     base_dir = getcwd()
     working_dir = getcwd() + "/structure_profile_checkpoint/"
@@ -71,7 +72,7 @@ def get_structure_profile_checkpoint( template_fn ):
         system( cmd )
 
     if not exists( sequence_fragments + ".ali.fasta.new.blast.checkpoint" ):
-        cmd = script_create_checkpoint_from_fasta_alignment + " " + fasta_fn + " " + sequence_fragments + ".ali.fasta"
+        cmd = "python3 " + struct_create_checkpoint_from_fasta_alignment + " -i " + sequence_fragments + ".ali.fasta.new.blast"
         print cmd + "\n"
         system( cmd )
 
@@ -90,4 +91,3 @@ if __name__ == "__main__":
         exit()
 
     print get_structure_profile_checkpoint( argv[1] )
-

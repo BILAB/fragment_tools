@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 use Bio::AlignIO;
 use FindBin qw($Bin);

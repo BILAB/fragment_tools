@@ -1,0 +1,1092 @@
+PSIBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: nr
+           169,859,411 sequences; 62,044,927,414 total letters
+
+Results from round 1
+
+
+Query= 2o6p_A mol:protein length:161  Iron-regulated surface determinant
+protein C  missing_density_rsn: 124 125 126 127 128 129 130 131 132
+133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149
+150 151 152 153 154 155 156 157 158 159 160 161
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  WP_103149758.1 heme uptake protein IsdC [Staphylococcus aureus]     212     5e-67
+  WP_109470634.1 heme uptake protein IsdC [Staphylococcus aureus]...  212     1e-66
+  WP_042745414.1 heme uptake protein IsdC [Staphylococcus aureus]     211     1e-66
+  WP_000789813.1 heme uptake protein IsdC [Staphylococcus aureus]...  211     1e-66
+  WP_100183642.1 heme uptake protein IsdC [Staphylococcus aureus]...  211     2e-66
+  EZV61455.1 iron-regulated surface determinant protein C [Staphy...  211     2e-66
+  SBD18709.1 surface anchored protein [Staphylococcus aureus]         212     2e-66
+  WP_000789819.1 heme uptake protein IsdC [Staphylococcus aureus]...  211     2e-66
+  WP_103237431.1 heme uptake protein IsdC [Staphylococcus aureus]     211     2e-66
+  WP_086158721.1 heme uptake protein IsdC [Staphylococcus aureus]     210     4e-66
+  SCS78918.1 surface anchored protein [Staphylococcus aureus]         210     5e-66
+  WP_117179569.1 heme uptake protein IsdC [Staphylococcus aureus]...  209     6e-66
+  WP_061395682.1 heme uptake protein IsdC [Staphylococcus aureus]...  209     6e-66
+  SAO87790.1 surface anchored protein [Staphylococcus aureus]         209     8e-66
+  WP_115295500.1 heme uptake protein IsdC [Staphylococcus aureus]...  209     9e-66
+  EGL95977.1 heme uptake protein IsdC [Staphylococcus aureus subs...  209     1e-65
+  WP_111120750.1 heme uptake protein IsdC [Staphylococcus aureus]...  209     1e-65
+  SQA05188.1 surface anchored protein [Staphylococcus aureus]         209     1e-65
+  WP_095337068.1 heme uptake protein IsdC, partial [Staphylococcu...  208     1e-65
+  WP_064141082.1 heme uptake protein IsdC [Staphylococcus aureus]...  208     2e-65
+  WP_064128318.1 heme uptake protein IsdC [Staphylococcus aureus]...  208     2e-65
+  WP_000789811.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  208     2e-65
+  WP_088563572.1 heme uptake protein IsdC [Staphylococcus aureus]...  208     2e-65
+  WP_108957723.1 heme uptake protein IsdC [Staphylococcus aureus]     208     2e-65
+  WP_114890011.1 heme uptake protein IsdC [Staphylococcus aureus]...  208     3e-65
+  WP_086095846.1 heme uptake protein IsdC [Staphylococcus aureus]     207     3e-65
+  WP_064126073.1 heme uptake protein IsdC [Staphylococcus aureus]...  208     3e-65
+  SBB05950.1 surface anchored protein [Staphylococcus aureus]         207     3e-65
+  WP_031837899.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     3e-65
+  WP_000789795.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     3e-65
+  WP_031865507.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     3e-65
+  WP_000789827.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     4e-65
+  WP_000789820.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     4e-65
+  WP_064212444.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     4e-65
+  WP_031912032.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     4e-65
+  WP_000789812.1 MULTISPECIES: iron-regulated surface determinant...  207     4e-65
+  WP_103261304.1 heme uptake protein IsdC [Staphylococcus aureus]     207     5e-65
+  WP_029549713.1 iron-regulated surface determinant protein C [St...  207     5e-65
+  WP_117207447.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     5e-65
+  WP_029265404.1 heme uptake protein IsdC [Staphylococcus aureus]     207     5e-65
+  WP_111011845.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     5e-65
+  EYN50574.1 iron-regulated surface determinant protein C [Staphy...  207     5e-65
+  WP_001622427.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     5e-65
+  WP_098686265.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     5e-65
+  WP_044165347.1 heme uptake protein IsdC, partial [Staphylococcu...  206     5e-65
+  WP_086041144.1 heme uptake protein IsdC [Staphylococcus aureus]     207     5e-65
+  WP_113613025.1 heme uptake protein IsdC [Staphylococcus aureus]     207     5e-65
+  WP_000789809.1 MULTISPECIES: iron-regulated surface determinant...  207     6e-65
+  WP_061823974.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     6e-65
+  WP_000789828.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  207     6e-65
+  WP_000789815.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     6e-65
+  WP_061736198.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     6e-65
+  WP_061735610.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     7e-65
+  WP_031864444.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     7e-65
+  WP_094970533.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     7e-65
+  WP_031874150.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     7e-65
+  WP_031898594.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     8e-65
+  WP_001573144.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     8e-65
+  EFG57610.1 heme uptake protein IsdC [Staphylococcus aureus subs...  206     8e-65
+  WP_103245983.1 heme uptake protein IsdC [Staphylococcus aureus]     207     8e-65
+  WP_100185086.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     8e-65
+  WP_000789816.1 heme uptake protein IsdC [Staphylococcus aureus]...  207     8e-65
+  WP_000789821.1 MULTISPECIES: iron-regulated surface determinant...  207     8e-65
+  WP_103152964.1 heme uptake protein IsdC [Staphylococcus aureus]     207     8e-65
+  WP_046377062.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     9e-65
+  WP_050974155.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     9e-65
+  WP_001572228.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     9e-65
+  WP_000789808.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     9e-65
+  WP_117206699.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_000789818.1 iron-regulated surface determinant protein C [St...  206     1e-64
+  WP_086152744.1 heme uptake protein IsdC [Staphylococcus aureus]     206     1e-64
+  WP_001663847.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_072497118.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_104408694.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_000789810.1 iron-regulated surface determinant protein C [St...  206     1e-64
+  WP_072467392.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_072511807.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_064136162.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_061388941.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_053862394.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_117207876.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_072527404.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_117224129.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_072491506.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_000789824.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_117214185.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_000789826.1 iron-regulated surface determinant protein C [St...  206     1e-64
+  WP_070004118.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_111071207.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     1e-64
+  WP_000789823.1 iron-regulated surface determinant protein C [St...  206     2e-64
+  WP_031906689.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_001588593.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_031898617.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_115211051.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_103148474.1 heme uptake protein IsdC [Staphylococcus aureus]     206     2e-64
+  WP_117346108.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_114291049.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_111148388.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_114621420.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  PNZ59235.1 heme uptake protein IsdC [Staphylococcus aureus subs...  206     2e-64
+  WP_115293790.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_041204275.1 heme uptake protein IsdC [Staphylococcus aureus]     206     2e-64
+  WP_101292654.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_031875931.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_111142521.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_060829058.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_000789822.1 MULTISPECIES: iron-regulated surface determinant...  206     2e-64
+  WP_063652056.1 heme uptake protein IsdC [Staphylococcus aureus]     206     2e-64
+  WP_031885987.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_115209879.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_031911548.1 heme uptake protein IsdC [Staphylococcus aureus]...  206     2e-64
+  WP_072460398.1 heme uptake protein IsdC [Staphylococcus aureus]...  205     3e-64
+  WP_061641658.1 heme uptake protein IsdC [Staphylococcus aureus]...  205     3e-64
+  WP_053865302.1 heme uptake protein IsdC [Staphylococcus aureus]...  205     3e-64
+  WP_064132004.1 heme uptake protein IsdC [Staphylococcus aureus]...  205     3e-64
+  WP_111053388.1 heme uptake protein IsdC [Staphylococcus aureus]...  205     3e-64
+  WP_070973854.1 heme uptake protein IsdC [Staphylococcus aureus]...  205     3e-64
+  WP_103262295.1 heme uptake protein IsdC [Staphylococcus aureus]     205     4e-64
+  WP_086095154.1 heme uptake protein IsdC [Staphylococcus aureus]     205     4e-64
+  WP_117206813.1 heme uptake protein IsdC [Staphylococcus aureus]...  205     4e-64
+  WP_000789814.1 heme uptake protein IsdC [Staphylococcus aureus]...  205     5e-64
+  WP_111259141.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     5e-64
+  WP_111688624.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     5e-64
+  WP_000789825.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     6e-64
+  WP_107366765.1 heme uptake protein IsdC [Staphylococcus aureus]     204     6e-64
+  WP_000789817.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     6e-64
+  WP_115118282.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     6e-64
+  WP_064133532.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     6e-64
+  WP_115276614.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     7e-64
+  WP_103145318.1 heme uptake protein IsdC [Staphylococcus aureus]     204     7e-64
+  WP_076745836.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     7e-64
+  WP_084989727.1 heme uptake protein IsdC, partial [Staphylococcu...  203     8e-64
+  WP_099426115.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     8e-64
+  WP_111122682.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     1e-63
+  WP_064137205.1 heme uptake protein IsdC [Staphylococcus aureus]...  204     1e-63
+  WP_103150311.1 heme uptake protein IsdC [Staphylococcus aureus]     203     1e-63
+  WP_108807128.1 heme uptake protein IsdC [Staphylococcus aureus]     203     2e-63
+  WP_098817784.1 heme uptake protein IsdC [Staphylococcus aureus]...  203     3e-63
+  WP_070043641.1 heme uptake protein IsdC [Staphylococcus aureus]...  203     3e-63
+  WP_103204640.1 heme uptake protein IsdC [Staphylococcus aureus]     202     3e-63
+  WP_054190279.1 heme uptake protein IsdC [Staphylococcus aureus]...  201     2e-62
+  KIN24100.1 heme transporter IsdC [Staphylococcus aureus MRSA_CV...  199     4e-62
+  WP_111073084.1 heme uptake protein IsdC [Staphylococcus aureus]...  200     4e-62
+  WP_095325449.1 heme uptake protein IsdC [Staphylococcus aureus]     200     1e-61
+  PAJ53307.1 heme uptake protein IsdC, partial [Staphylococcus au...  196     5e-61
+  2O6P_A Chain A, Crystal Structure of the heme-IsdC complex 2O6P...  193     2e-60
+  WP_076706642.1 heme uptake protein IsdC [Staphylococcus argente...  192     3e-59
+  WP_103215348.1 heme uptake protein IsdC [Staphylococcus aureus]     192     4e-59
+  WP_047434210.1 heme uptake protein IsdC [Staphylococcus argente...  192     4e-59
+  WP_031787751.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  192     5e-59
+  WP_072507458.1 heme uptake protein IsdC [Staphylococcus argente...  192     6e-59
+  WP_047526367.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  191     9e-59
+  WP_047429739.1 heme uptake protein IsdC [Staphylococcus argente...  190     3e-58
+  WP_088816899.1 heme uptake protein IsdC [Staphylococcus argenteus]  189     6e-58
+  WP_095259883.1 heme uptake protein IsdC, partial [Staphylococcu...  187     1e-57
+  WP_000790482.1 heme uptake protein IsdC [Staphylococcus argente...  187     3e-57
+  WP_047447533.1 heme uptake protein IsdC [Staphylococcus schweit...  186     9e-57
+  WP_107396635.1 heme uptake protein IsdC [Staphylococcus capitis...  184     2e-56
+  WP_107361291.1 heme uptake protein IsdC [Staphylococcus capitis...  184     4e-56
+  WP_047550916.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  184     4e-56
+  WP_046472946.1 heme uptake protein IsdC, partial [Staphylococcu...  182     7e-56
+  WP_023350450.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  183     7e-56
+  WP_037548732.1 heme uptake protein IsdC [Staphylococcus sp. TE8...  183     7e-56
+  WP_047530497.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  184     8e-56
+  WP_047424941.1 heme uptake protein IsdC [Staphylococcus schweit...  184     1e-55
+  WP_002435078.1 heme uptake protein IsdC [Staphylococcus capitis...  182     2e-55
+  WP_047796147.1 heme uptake protein IsdC [Staphylococcus capitis...  182     2e-55
+  EES40327.1 heme uptake protein IsdC [Staphylococcus caprae M238...  181     5e-55
+  WP_049387992.1 heme uptake protein IsdC, partial [Staphylococcu...  180     5e-55
+  WP_016898766.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  181     6e-55
+  WP_103175554.1 heme uptake protein IsdC [Staphylococcus capitis...  181     6e-55
+  WP_037541354.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  180     1e-54
+  WP_103212970.1 heme uptake protein IsdC [Staphylococcus caprae]...  180     2e-54
+  PZP97414.1 heme uptake protein IsdC [Staphylococcus capitis]        179     2e-54
+  WP_064210786.1 heme uptake protein IsdC [Staphylococcus capitis...  179     3e-54
+  2K78_A Chain A, Solution Structure of the IsdC NEAT domain boun...  176     9e-54
+  WP_094979105.1 heme uptake protein IsdC, partial [Staphylococcu...  176     9e-54
+  WP_017637561.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  177     2e-53
+  WP_117239322.1 heme uptake protein IsdC [Staphylococcus pasteur...  177     2e-53
+  WP_084600298.1 heme uptake protein IsdC [Pontibacillus litoralis]   178     2e-53
+  KGX84412.1 hypothetical protein N784_13510 [Pontibacillus litor...  177     2e-53
+  WP_060795117.1 heme uptake protein IsdC [Staphylococcus lugdune...  177     3e-53
+  WP_002460922.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  177     3e-53
+  WP_084951172.1 heme uptake protein IsdC [Staphylococcus lugdune...  177     3e-53
+  WP_085317329.1 heme uptake protein IsdC [Staphylococcus lugdune...  177     4e-53
+  WP_037544197.1 heme uptake protein IsdC [Staphylococcus lugdune...  177     4e-53
+  WP_087932404.1 heme uptake protein IsdC [Bacillus thuringiensis...  177     4e-53
+  WP_077995327.1 heme uptake protein IsdC [Paenibacillus larvae] ...  176     9e-53
+  ODB79884.1 heme uptake protein IsdC, partial [Staphylococcus sp...  174     1e-52
+  AQT86646.1 heme uptake protein IsdC [Paenibacillus larvae subsp...  176     2e-52
+  REJ26241.1 heme uptake protein IsdC [Caldibacillus debilis]         175     6e-52
+  KXI37348.1 heme uptake protein IsdC [Bacillus cereus]               174     8e-52
+  WP_105927443.1 heme uptake protein IsdC [Bacillus sp. LLTC93] P...  173     1e-51
+  WP_001226891.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  174     1e-51
+  WP_107392178.1 heme uptake protein IsdC [Staphylococcus auricul...  173     1e-51
+  WP_034321834.1 heme uptake protein IsdC [Bacillus zhangzhouensi...  172     2e-51
+  WP_001226907.1 heme uptake protein IsdC [Bacillus thuringiensis...  173     2e-51
+  WP_098921001.1 heme uptake protein IsdC [Bacillus anthracis] PG...  172     4e-51
+  WP_099727309.1 heme uptake protein IsdC [Bacillus pumilus] PIK2...  172     4e-51
+  WP_001226902.1 heme uptake protein IsdC [Bacillus cereus] ACO31...  172     5e-51
+  WP_075612437.1 heme uptake protein IsdC [Bacillus safensis] APT...  171     6e-51
+  WP_034639829.1 heme uptake protein IsdC [Bacillus manliponensis...  171     6e-51
+  WP_087977966.1 heme uptake protein IsdC [Bacillus safensis] OUK...  171     7e-51
+  REJ15995.1 heme uptake protein IsdC [Caldibacillus debilis]         171     7e-51
+  COE63262.1 Staphylococcal iron-regulated protein D [Streptococc...  171     8e-51
+  WP_001226903.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  171     9e-51
+  WP_097959264.1 heme uptake protein IsdC [Bacillus toyonensis] P...  171     1e-50
+  WP_098384491.1 heme uptake protein IsdC [Bacillus cereus] PEX94...  171     1e-50
+  WP_098070542.1 heme uptake protein IsdC [Bacillus toyonensis] P...  171     1e-50
+  WP_044334420.1 heme uptake protein IsdC [Bacillus safensis] KIZ...  170     2e-50
+  WP_061157498.1 heme uptake protein IsdC [Bacillus cereus] KXI48...  171     2e-50
+  WP_076870089.1 heme uptake protein IsdC [Bacillus cereus] ONG99...  171     2e-50
+  WP_070221213.1 heme uptake protein IsdC [Listeria monocytogenes...  169     2e-50
+  WP_001226895.1 heme uptake protein IsdC [Bacillus cereus] EJR10...  171     2e-50
+  WP_000714737.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  170     2e-50
+  WP_098540281.1 heme uptake protein IsdC [Bacillus cereus] PFN27...  171     2e-50
+  WP_001226894.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  171     2e-50
+  WP_001226890.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  171     2e-50
+  WP_001226888.1 heme uptake protein IsdC [Bacillus cereus] EJR20...  171     2e-50
+  WP_098087716.1 heme uptake protein IsdC [Bacillus toyonensis] P...  170     2e-50
+  WP_001226897.1 heme uptake protein IsdC [Bacillus cereus] AFQ10...  170     2e-50
+  WP_046198143.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  170     2e-50
+  WP_051427827.1 heme uptake protein IsdC [Paenibacillus larvae] ...  170     2e-50
+  WP_088120993.1 heme uptake protein IsdC [Bacillus thuringiensis...  170     2e-50
+  WP_034624143.1 heme uptake protein IsdC [Bacillus safensis] KEP...  169     2e-50
+  WP_069008325.1 heme uptake protein IsdC [Listeria monocytogenes...  169     3e-50
+  WP_001226893.1 heme uptake protein IsdC [Bacillus cereus] ADK07...  170     3e-50
+  WP_001226908.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  170     3e-50
+  WP_070211077.1 heme uptake protein IsdC [Listeria monocytogenes...  169     3e-50
+  WP_087951193.1 heme uptake protein IsdC [Bacillus thuringiensis...  170     3e-50
+  WP_111927025.1 heme uptake protein IsdC [Bacillus safensis] RAU...  169     3e-50
+  WP_012580892.1 heme uptake protein IsdC [Listeria monocytogenes...  169     3e-50
+  WP_076856091.1 heme uptake protein IsdC [Bacillus cereus] ONG70...  170     3e-50
+  WP_000714741.1 heme uptake protein IsdC [Bacillus cereus] EJR68...  170     3e-50
+  WP_107398003.1 heme uptake protein IsdC [Staphylococcus auricul...  170     3e-50
+  WP_000714740.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  170     3e-50
+  WP_001226896.1 heme uptake protein IsdC [Bacillus cereus] KMP16...  170     3e-50
+  WP_061535690.1 heme uptake protein IsdC [Bacillus cereus] KXY12...  170     4e-50
+  WP_070307476.1 heme uptake protein IsdC [Listeria monocytogenes...  169     4e-50
+  WP_001225046.1 heme uptake protein IsdC [Bacillus cereus] EJS73...  170     4e-50
+  WP_001226889.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  170     4e-50
+  KIL12792.1 hypothetical protein B4129_3081 [Bacillus safensis]      169     4e-50
+  WP_086421256.1 heme uptake protein IsdC [Bacillus thuringiensis...  169     4e-50
+  WP_000714739.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  169     4e-50
+  WP_099003605.1 heme uptake protein IsdC [Bacillus toyonensis] P...  169     4e-50
+  WP_073208444.1 heme uptake protein IsdC [Bacillus safensis] APJ...  169     4e-50
+  WP_075621474.1 heme uptake protein IsdC [Bacillus safensis] APT...  169     5e-50
+  WP_069889185.1 heme uptake protein IsdC [Listeria monocytogenes...  169     5e-50
+  WP_046951951.1 heme uptake protein IsdC [Bacillus cereus] KLA18...  169     5e-50
+  WP_076840633.1 heme uptake protein IsdC [Bacillus sp. I-2] OMP2...  169     5e-50
+  WP_100061481.1 heme uptake protein IsdC [Bacillus toyonensis] P...  169     5e-50
+  WP_098812905.1 heme uptake protein IsdC [Bacillus toyonensis] P...  169     6e-50
+  WP_000714738.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  169     6e-50
+  WP_085450552.1 heme uptake protein IsdC [Bacillus toyonensis] O...  169     6e-50
+  WP_098000003.1 heme uptake protein IsdC [Bacillus toyonensis] P...  169     6e-50
+  WP_012986251.1 heme uptake protein IsdC [Listeria seeligeri] CB...  168     6e-50
+  WP_000714743.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  169     6e-50
+  WP_025093790.1 heme uptake protein IsdC [Bacillus safensis]         169     6e-50
+  WP_070283871.1 heme uptake protein IsdC [Listeria monocytogenes...  168     7e-50
+  WP_075702828.1 heme uptake protein IsdC [Listeria seeligeri] OL...  168     7e-50
+  WP_098141498.1 heme uptake protein IsdC [Bacillus toyonensis] P...  169     7e-50
+  WP_098163124.1 heme uptake protein IsdC [Bacillus toyonensis] P...  169     7e-50
+  WP_041087607.1 heme uptake protein IsdC [Bacillus safensis]         168     7e-50
+  WP_098821597.1 heme uptake protein IsdC [Bacillus toyonensis] P...  169     7e-50
+  WP_016109165.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  169     7e-50
+  WP_061132075.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  169     8e-50
+  WP_001991807.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  169     8e-50
+  WP_107578894.1 heme uptake protein IsdC [Staphylococcus simulan...  168     8e-50
+  WP_107605356.1 heme uptake protein IsdC [Staphylococcus simulan...  168     8e-50
+  WP_098838200.1 heme uptake protein IsdC [Bacillus toyonensis] P...  169     8e-50
+  WP_003749105.1 heme uptake protein IsdC [Listeria seeligeri] EF...  168     9e-50
+  AQR79652.1 heme uptake protein IsdC [Paenibacillus larvae subsp...  169     9e-50
+  WP_109630264.1 heme uptake protein IsdC [Bacillus cereus] PWN76...  169     9e-50
+  EFS02446.1 heme uptake protein IsdC [Listeria seeligeri FSL S4-...  168     9e-50
+  WP_010899440.1 heme uptake protein IsdC [Bacillus halodurans] B...  168     9e-50
+  WP_056765390.1 heme uptake protein IsdC [Bacillus sp. Root920] ...  168     1e-49
+  WP_046326048.1 heme uptake protein IsdC [Listeria seeligeri] KK...  168     1e-49
+  WP_003737259.1 heme uptake protein IsdC [Listeria monocytogenes...  168     1e-49
+  WP_070226781.1 heme uptake protein IsdC [Listeria monocytogenes...  168     1e-49
+  KMK69395.1 cell surface protein [Bacillus safensis]                 168     1e-49
+  WP_105587962.1 heme uptake protein IsdC [Bacillus sp. MYb209] P...  168     1e-49
+  WP_048238035.1 heme uptake protein IsdC [Bacillus safensis] KML...  168     1e-49
+  WP_097927510.1 heme uptake protein IsdC [Bacillus toyonensis] P...  168     1e-49
+  WP_070265652.1 heme uptake protein IsdC [Listeria monocytogenes...  167     1e-49
+  WP_098137392.1 heme uptake protein IsdC [Bacillus toyonensis] P...  168     1e-49
+  WP_098668081.1 heme uptake protein IsdC [Bacillus sp. AFS059628...  168     1e-49
+  WP_017560235.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  168     1e-49
+  WP_103131848.1 heme uptake protein IsdC [Bacillus stratospheric...  167     1e-49
+  WP_076867546.1 heme uptake protein IsdC [Bacillus cereus] ONG93...  168     2e-49
+  WP_070753806.1 heme uptake protein IsdC [Listeria monocytogenes...  167     2e-49
+  CUB58968.1 Iron-regulated surface determinant protein C precurs...  168     2e-49
+  WP_003729591.1 heme uptake protein IsdC [Listeria monocytogenes...  167     2e-49
+  WP_001225047.1 heme uptake protein IsdC [Bacillus cereus] EJS78...  168     2e-49
+  WP_070036774.1 heme uptake protein IsdC [Listeria monocytogenes...  167     2e-49
+  WP_070031428.1 heme uptake protein IsdC [Listeria monocytogenes...  167     2e-49
+  WP_083445464.1 heme uptake protein IsdC [Bacillus okuhidensis] ...  167     2e-49
+  WP_059377302.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  167     2e-49
+  WP_058838446.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  167     2e-49
+  KMK78161.1 hypothetical protein AB990_01610 [Bacillus pseudalca...  167     3e-49
+  WP_033533817.1 heme uptake protein IsdC [Listeria innocua] REA9...  167     3e-49
+  WP_003767961.1 MULTISPECIES: heme uptake protein IsdC [Listeria...  167     3e-49
+  WP_069891139.1 heme uptake protein IsdC [Listeria monocytogenes...  167     3e-49
+  WP_070215559.1 heme uptake protein IsdC [Listeria monocytogenes...  167     3e-49
+  WP_098985964.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  167     3e-49
+  WP_003763505.1 MULTISPECIES: heme uptake protein IsdC [Listeria...  167     3e-49
+  WP_016086035.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  167     3e-49
+  WP_002199217.1 heme uptake protein IsdC [Bacillus cereus] EJQ49...  167     3e-49
+  WP_001226905.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  167     4e-49
+  ARO60828.1 Heme uptake protein IsdC [Bacillus cereus]               165     4e-49
+  KIL20190.1 hypothetical protein B4134_3686 [Bacillus safensis]      166     4e-49
+  WP_071710417.1 heme uptake protein IsdC [Bacillus luti] OJE5211...  167     4e-49
+  WP_002160288.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  167     4e-49
+  WP_083041407.1 heme uptake protein IsdC [Paenibacillus larvae] ...  167     5e-49
+  WP_039183381.1 heme uptake protein IsdC [Bacillus sp. WP8] AIZ6...  166     5e-49
+  WP_098988733.1 heme uptake protein IsdC [Bacillus cereus] PGY10...  167     5e-49
+  WP_070145053.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  167     5e-49
+  REJ23017.1 heme uptake protein IsdC [Bacillaceae bacterium]         166     5e-49
+  RGN76937.1 heme uptake protein IsdC [Bacillus cereus]               166     6e-49
+  WP_003739549.1 heme uptake protein IsdC [Listeria monocytogenes...  165     6e-49
+  WP_075396089.1 MULTISPECIES: heme uptake protein IsdC [Bacillus]    167     6e-49
+  EEM75602.1 Iron transport associated protein [Bacillus thuringi...  166     6e-49
+  WP_070222285.1 heme uptake protein IsdC [Listeria monocytogenes...  165     6e-49
+  WP_071736754.1 heme uptake protein IsdC [Bacillus anthracis] OJ...  166     6e-49
+  WP_116732562.1 heme uptake protein IsdC [Listeria monocytogenes...  165     7e-49
+  KIL14922.1 hypothetical protein B4107_3647 [Bacillus safensis]      166     7e-49
+  WP_088099558.1 heme uptake protein IsdC [Bacillus mycoides] SCB...  166     7e-49
+  WP_098691438.1 heme uptake protein IsdC [Bacillus toyonensis] P...  166     7e-49
+  WP_098903183.1 heme uptake protein IsdC [Bacillus sp. AFS094611...  166     7e-49
+  WP_065214950.1 heme uptake protein IsdC [Bacillus safensis] OBW...  165     8e-49
+  WP_098268806.1 heme uptake protein IsdC [Bacillus cereus] PES93...  166     8e-49
+  KDE28601.1 hypothetical protein BA81_07434 [Bacillus safensis F...  165     8e-49
+  WP_041118468.1 heme uptake protein IsdC [Bacillus safensis]         165     8e-49
+  WP_098150969.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  166     9e-49
+  WP_098204280.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  166     9e-49
+  WP_074610104.1 heme uptake protein IsdC [Bacillus cereus]           166     9e-49
+  WP_016106303.1 heme uptake protein IsdC [Bacillus cereus] EOP64...  166     9e-49
+  WP_000714742.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  166     9e-49
+  WP_098633557.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  166     1e-48
+  WP_069887819.1 heme uptake protein IsdC [Listeria monocytogenes...  165     1e-48
+  WP_061385238.1 heme uptake protein IsdC [Listeria monocytogenes...  165     1e-48
+  WP_059106323.1 heme uptake protein IsdC [Staphylococcus auricul...  166     1e-48
+  WP_078172724.1 heme uptake protein IsdC [Bacillus cereus] OOQ96...  166     1e-48
+  WP_061107405.1 heme uptake protein IsdC [Listeria monocytogenes...  165     1e-48
+  WP_041108533.1 heme uptake protein IsdC [Bacillus safensis]         165     1e-48
+  WP_016120874.1 heme uptake protein IsdC [Bacillus cereus] EOP34...  165     1e-48
+  WP_016092398.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     1e-48
+  WP_042980206.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  166     1e-48
+  WP_002112156.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     1e-48
+  WP_003731900.1 heme uptake protein IsdC [Listeria monocytogenes...  165     1e-48
+  WP_070213071.1 heme uptake protein IsdC [Listeria monocytogenes...  165     1e-48
+  WP_098654480.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  165     2e-48
+  WP_034281463.1 heme uptake protein IsdC [Bacillus safensis] AWI...  165     2e-48
+  WP_046312772.1 heme uptake protein IsdC [Bacillus safensis] KKD...  165     2e-48
+  WP_012681408.1 heme uptake protein IsdC [Listeria monocytogenes...  164     2e-48
+  WP_097351841.1 heme uptake protein IsdC [Listeria monocytogenes...  164     2e-48
+  WP_070759224.1 heme uptake protein IsdC [Listeria monocytogenes...  164     2e-48
+  WP_071728176.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     2e-48
+  WP_083326910.1 heme uptake protein IsdC [Staphylococcus sp. HMS...  164     2e-48
+  WP_070806926.1 heme uptake protein IsdC [Bacillus sp. ABP14] AO...  165     2e-48
+  WP_062821914.1 heme uptake protein IsdC [Bacillus cereus] KYQ01...  165     2e-48
+  OQR53874.1 heme uptake protein IsdC [Bacillus sp. CDB3]             165     2e-48
+  WP_001226901.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     2e-48
+  WP_085392404.1 heme uptake protein IsdC [Listeria monocytogenes...  164     2e-48
+  WP_024427512.1 heme uptake protein IsdC [Bacillus safensis]         164     2e-48
+  WP_066250113.1 heme uptake protein IsdC [Geobacillus sp. 8] KZM...  165     2e-48
+  EKF36958.1 hypothetical protein BA1_02790 [Bacillus xiamenensis]    164     2e-48
+  WP_087957125.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     2e-48
+  WP_087985364.1 heme uptake protein IsdC [Bacillus thuringiensis...  165     2e-48
+  WP_098312715.1 heme uptake protein IsdC [Bacillus thuringiensis...  165     3e-48
+  WP_078182790.1 heme uptake protein IsdC [Bacillus wiedmannii] O...  165     3e-48
+  WP_088609273.1 heme uptake protein IsdC [Bacillus sp. K2I17] OW...  165     3e-48
+  WP_097905790.1 heme uptake protein IsdC [Bacillus cereus] PEC19...  165     3e-48
+  WP_002145463.1 heme uptake protein IsdC [Bacillus cereus] EJQ84...  165     3e-48
+  WP_046958762.1 heme uptake protein IsdC [Bacillus wiedmannii] K...  165     3e-48
+  WP_098768893.1 heme uptake protein IsdC [Bacillus cereus] PGT18...  165     3e-48
+  WP_097832066.1 heme uptake protein IsdC [Bacillus cereus] PDY80...  165     3e-48
+  WP_071748251.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     3e-48
+  WP_097851387.1 heme uptake protein IsdC [Bacillus anthracis] PD...  165     3e-48
+  WP_087982272.1 heme uptake protein IsdC [Bacillus cereus] SCN37...  165     3e-48
+  WP_098989888.1 heme uptake protein IsdC [Bacillus cereus] PGZ09...  165     3e-48
+  WP_098521707.1 heme uptake protein IsdC [Bacillus cereus] PFM42...  165     3e-48
+  WP_044442286.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     3e-48
+  WP_002138558.1 heme uptake protein IsdC [Bacillus cereus] EJV79...  165     3e-48
+  WP_070293901.1 heme uptake protein IsdC [Listeria monocytogenes...  164     3e-48
+  WP_097855492.1 heme uptake protein IsdC [Bacillus cereus] PED04...  165     3e-48
+  WP_003724604.1 heme uptake protein IsdC [Listeria monocytogenes...  164     3e-48
+  WP_001226909.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     3e-48
+  WP_061394565.1 heme uptake protein IsdC [Listeria monocytogenes...  164     3e-48
+  WP_098057867.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  165     3e-48
+  WP_001226904.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     3e-48
+  WP_071735191.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     3e-48
+  WP_098275886.1 heme uptake protein IsdC [Bacillus cereus] PFB29...  165     3e-48
+  WP_088034080.1 heme uptake protein IsdC [Bacillus thuringiensis...  165     3e-48
+  WP_098238386.1 heme uptake protein IsdC [Bacillus cereus] PER26...  165     3e-48
+  WP_073978801.1 heme uptake protein IsdC [Bacillus pumilus] CUB1...  164     3e-48
+  WP_097889219.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  165     3e-48
+  WP_098344586.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  165     3e-48
+  WP_088300170.1 heme uptake protein IsdC [Bacillus cereus]           165     3e-48
+  WP_001226892.1 heme uptake protein IsdC [Bacillus thuringiensis...  165     4e-48
+  WP_097907786.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  165     4e-48
+  WP_098649191.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  165     4e-48
+  WP_003727847.1 heme uptake protein IsdC [Listeria monocytogenes...  164     4e-48
+  WP_101289573.1 heme uptake protein IsdC, partial [Staphylococcu...  162     4e-48
+  WP_098133590.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  164     4e-48
+  WP_088028324.1 heme uptake protein IsdC [Bacillus cereus] SMD94...  164     4e-48
+  WP_016102984.1 heme uptake protein IsdC [Bacillus cereus] EOO68...  164     4e-48
+  WP_048562162.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     4e-48
+  WP_082709459.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  164     4e-48
+  WP_070169142.1 heme uptake protein IsdC [Bacillus wiedmannii] O...  164     4e-48
+  WP_088040218.1 heme uptake protein IsdC [Bacillus mycoides] SCB...  164     4e-48
+  WP_048544308.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     4e-48
+  WP_098635296.1 heme uptake protein IsdC [Bacillus mycoides] PFX...  164     4e-48
+  WP_098611351.1 heme uptake protein IsdC [Bacillus cereus] PFQ52...  164     4e-48
+  WP_014601046.1 heme uptake protein IsdC [Listeria monocytogenes...  164     4e-48
+  WP_098630338.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  164     4e-48
+  WP_061110369.1 heme uptake protein IsdC [Bacillus safensis] KXI...  164     4e-48
+  WP_071771025.1 heme uptake protein IsdC [Bacillus sp. NH11B] OJ...  164     4e-48
+  WP_070180538.1 heme uptake protein IsdC [Bacillus thuringiensis...  164     5e-48
+  WP_113768855.1 heme uptake protein IsdC [Bacillus sp. SRB_28] R...  164     5e-48
+  WP_046945870.1 heme uptake protein IsdC [Bacillus cereus] KLA28...  164     5e-48
+  WP_002122904.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     5e-48
+  WP_061663238.1 heme uptake protein IsdC [Bacillus cereus] KXY42...  164     5e-48
+  WP_034738274.1 heme uptake protein IsdC [Bacillus xiamenensis] ...  164     5e-48
+  WP_098677095.1 heme uptake protein IsdC [Bacillus safensis] PGC...  164     5e-48
+  WP_097844321.1 heme uptake protein IsdC [Bacillus cereus] PDZ67...  164     5e-48
+  WP_001225045.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     5e-48
+  WP_000757939.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     5e-48
+  WP_098116199.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  164     5e-48
+  WP_021496306.1 heme uptake protein IsdC [Listeria monocytogenes...  163     5e-48
+  WP_098586000.1 heme uptake protein IsdC [Bacillus cereus] PFO69...  164     5e-48
+  WP_069029441.1 heme uptake protein IsdC [Listeria monocytogenes...  163     6e-48
+  WP_061395392.1 heme uptake protein IsdC [Listeria monocytogenes...  163     6e-48
+  WP_025709903.1 heme uptake protein IsdC [Bacillus cereus] ASI74...  164     6e-48
+  KXA45861.1 heme uptake protein IsdC [Staphylococcus simulans]       164     6e-48
+  WP_052419156.1 heme uptake protein IsdC [Paenibacillus sp. FSL ...  167     6e-48
+  WP_098499722.1 heme uptake protein IsdC [Bacillus cereus] PFL20...  164     6e-48
+  WP_085312475.1 heme uptake protein IsdC [Bacillus mycoides] ARJ...  164     6e-48
+  WP_063387709.1 heme uptake protein IsdC [Aeribacillus pallidus]...  164     6e-48
+  WP_098436041.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     6e-48
+  WP_001225044.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     6e-48
+  WP_003722310.1 heme uptake protein IsdC [Listeria monocytogenes...  163     6e-48
+  WP_098286541.1 heme uptake protein IsdC [Bacillus cereus] PER10...  164     6e-48
+  WP_070772424.1 heme uptake protein IsdC [Listeria monocytogenes...  163     6e-48
+  WP_098814598.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  164     6e-48
+  WP_006926501.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     7e-48
+  WP_098084246.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  164     7e-48
+  WP_047202944.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  163     7e-48
+  WP_000757948.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     7e-48
+  WP_098200073.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  164     7e-48
+  WP_060632467.1 heme uptake protein IsdC [Bacillus thuringiensis...  164     7e-48
+  WP_088097930.1 heme uptake protein IsdC [Bacillus cereus] SCN00...  164     7e-48
+  WP_088064535.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     7e-48
+  WP_001226906.1 heme uptake protein IsdC [Bacillus cereus] AAU15...  164     7e-48
+  WP_069891919.1 heme uptake protein IsdC [Listeria monocytogenes...  163     7e-48
+  WP_070786489.1 heme uptake protein IsdC [Listeria monocytogenes...  163     7e-48
+  WP_103757876.1 heme uptake protein IsdC [Listeria monocytogenes...  163     7e-48
+  WP_000757940.1 heme uptake protein IsdC [Bacillus cereus] EJR86...  164     7e-48
+  WP_098110267.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  164     7e-48
+  WP_098686522.1 heme uptake protein IsdC [Bacillus cereus] PFW29...  164     8e-48
+  WP_098402081.1 heme uptake protein IsdC [Bacillus cereus] PEX47...  164     8e-48
+  WP_098367917.1 heme uptake protein IsdC [Bacillus anthracis] PE...  164     8e-48
+  WP_098321417.1 heme uptake protein IsdC [Bacillus anthracis] PF...  164     8e-48
+  WP_071715222.1 heme uptake protein IsdC [Bacillus sp. N35-10-4]...  164     8e-48
+  WP_098089244.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  164     8e-48
+  WP_098644317.1 heme uptake protein IsdC [Bacillus toyonensis] P...  164     8e-48
+  WP_074593622.1 heme uptake protein IsdC [Bacillus cereus]           164     8e-48
+  WP_082623825.1 heme uptake protein IsdC [Staphylococcus simulans]   163     8e-48
+  WP_098343713.1 heme uptake protein IsdC [Bacillus cereus] PFE09...  164     9e-48
+  WP_078179643.1 heme uptake protein IsdC [Bacillus cereus] OOR30...  164     9e-48
+  WP_061114495.1 heme uptake protein IsdC [Listeria monocytogenes...  163     9e-48
+  WP_016718629.1 heme uptake protein IsdC [Bacillus cereus] KXI50...  164     9e-48
+  WP_098048072.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  164     9e-48
+  WP_012261784.1 heme uptake protein IsdC [Bacillus mycoides] ABY...  164     9e-48
+  WP_107552824.1 heme uptake protein IsdC [Staphylococcus simulan...  163     9e-48
+  WP_083309974.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  163     9e-48
+  WP_075313675.1 heme uptake protein IsdC [Bacillus wiedmannii]       164     9e-48
+  WP_071720518.1 heme uptake protein IsdC [Bacillus mobilis] OJE4...  164     9e-48
+  WP_113759159.1 heme uptake protein IsdC, partial [Bacillus cere...  163     9e-48
+  WP_048551266.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  164     9e-48
+  ASZ68260.1 heme uptake protein IsdC [Bacillus cereus]               164     1e-47
+  WP_098220467.1 heme uptake protein IsdC [Bacillus cereus] PES75...  164     1e-47
+  WP_114555675.1 heme uptake protein IsdC [Bacillus sp. K6W]          164     1e-47
+  WP_098962474.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  164     1e-47
+  WP_098760641.1 heme uptake protein IsdC [Bacillus anthracis] PG...  164     1e-47
+  WP_081600399.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  163     1e-47
+  OHR53880.1 hypothetical protein HMPREF2937_03330 [Staphylococcu...  163     1e-47
+  WP_065222757.1 heme uptake protein IsdC [Bacillus cereus] OBW57...  164     1e-47
+  WP_095300705.1 heme uptake protein IsdC [Bacillus sp. 7586-K] P...  164     1e-47
+  WP_098271771.1 heme uptake protein IsdC [Bacillus cereus] PES63...  163     1e-47
+  WP_088059819.1 heme uptake protein IsdC [Bacillus cereus] SCN39...  163     1e-47
+  WP_098606639.1 heme uptake protein IsdC [Bacillus cereus] PFT93...  163     1e-47
+  WP_000757941.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  163     1e-47
+  WP_076540569.1 heme uptake protein IsdC [Bacillus cereus] SIR43...  163     1e-47
+  EFR86991.1 heme uptake protein IsdC [Listeria marthii FSL S4-120]   162     1e-47
+  WP_000757954.1 heme uptake protein IsdC [Bacillus cereus] EEL74...  163     1e-47
+  WP_098592238.1 heme uptake protein IsdC [Bacillus cereus] PFR75...  163     1e-47
+  WP_016080121.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  163     1e-47
+  WP_044790616.1 heme uptake protein IsdC [Bacillus thuringiensis]    163     1e-47
+  WP_063224754.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  163     1e-47
+  WP_097862392.1 heme uptake protein IsdC [Bacillus cereus] PDY05...  163     1e-47
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.138    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0422    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1516347336650
+Results from round 2
+
+
+Query= 2o6p_A mol:protein length:161  Iron-regulated surface determinant
+protein C  missing_density_rsn: 124 125 126 127 128 129 130 131 132
+133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149
+150 151 152 153 154 155 156 157 158 159 160 161
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  WP_077995327.1 heme uptake protein IsdC [Paenibacillus larvae] ...  205     3e-64
+  AQT86646.1 heme uptake protein IsdC [Paenibacillus larvae subsp...  205     5e-64
+  WP_010899440.1 heme uptake protein IsdC [Bacillus halodurans] B...  204     9e-64
+  WP_083445464.1 heme uptake protein IsdC [Bacillus okuhidensis] ...  202     3e-63
+  WP_087932404.1 heme uptake protein IsdC [Bacillus thuringiensis...  202     9e-63
+  WP_051427827.1 heme uptake protein IsdC [Paenibacillus larvae] ...  202     1e-62
+  AQR79652.1 heme uptake protein IsdC [Paenibacillus larvae subsp...  200     3e-62
+  WP_034639829.1 heme uptake protein IsdC [Bacillus manliponensis...  199     8e-62
+  WP_099727309.1 heme uptake protein IsdC [Bacillus pumilus] PIK2...  199     9e-62
+  WP_083041407.1 heme uptake protein IsdC [Paenibacillus larvae] ...  199     1e-61
+  KXI37348.1 heme uptake protein IsdC [Bacillus cereus]               199     1e-61
+  WP_001226891.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  198     2e-61
+  WP_105927443.1 heme uptake protein IsdC [Bacillus sp. LLTC93] P...  197     3e-61
+  WP_075612437.1 heme uptake protein IsdC [Bacillus safensis] APT...  197     3e-61
+  WP_001226902.1 heme uptake protein IsdC [Bacillus cereus] ACO31...  197     4e-61
+  WP_098921001.1 heme uptake protein IsdC [Bacillus anthracis] PG...  197     5e-61
+  WP_001226907.1 heme uptake protein IsdC [Bacillus thuringiensis...  197     5e-61
+  WP_098668081.1 heme uptake protein IsdC [Bacillus sp. AFS059628...  197     6e-61
+  WP_034321834.1 heme uptake protein IsdC [Bacillus zhangzhouensi...  196     7e-61
+  WP_001226903.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  197     8e-61
+  WP_001226897.1 heme uptake protein IsdC [Bacillus cereus] AFQ10...  196     1e-60
+  COE63262.1 Staphylococcal iron-regulated protein D [Streptococc...  197     1e-60
+  WP_026672657.1 heme uptake protein IsdC [Bacillus bogoriensis]      196     2e-60
+  WP_070221213.1 heme uptake protein IsdC [Listeria monocytogenes...  195     2e-60
+  WP_012580892.1 heme uptake protein IsdC [Listeria monocytogenes...  195     2e-60
+  WP_095300705.1 heme uptake protein IsdC [Bacillus sp. 7586-K] P...  196     2e-60
+  WP_069008325.1 heme uptake protein IsdC [Listeria monocytogenes...  195     2e-60
+  WP_100061481.1 heme uptake protein IsdC [Bacillus toyonensis] P...  195     2e-60
+  WP_076870089.1 heme uptake protein IsdC [Bacillus cereus] ONG99...  196     2e-60
+  WP_000714741.1 heme uptake protein IsdC [Bacillus cereus] EJR68...  195     3e-60
+  WP_070211077.1 heme uptake protein IsdC [Listeria monocytogenes...  195     3e-60
+  WP_061157498.1 heme uptake protein IsdC [Bacillus cereus] KXI48...  195     3e-60
+  WP_001226890.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  195     3e-60
+  WP_087977966.1 heme uptake protein IsdC [Bacillus safensis] OUK...  195     3e-60
+  WP_001226894.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  195     3e-60
+  WP_081939258.1 heme uptake protein IsdC [Bacillus alcalophilus]     195     3e-60
+  WP_088120993.1 heme uptake protein IsdC [Bacillus thuringiensis...  195     3e-60
+  WP_001226895.1 heme uptake protein IsdC [Bacillus cereus] EJR10...  195     3e-60
+  WP_046198143.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  195     3e-60
+  WP_070307476.1 heme uptake protein IsdC [Listeria monocytogenes...  194     3e-60
+  WP_001226888.1 heme uptake protein IsdC [Bacillus cereus] EJR20...  195     3e-60
+  KMK78161.1 hypothetical protein AB990_01610 [Bacillus pseudalca...  194     4e-60
+  WP_098070542.1 heme uptake protein IsdC [Bacillus toyonensis] P...  195     4e-60
+  KIL20190.1 hypothetical protein B4134_3686 [Bacillus safensis]      194     4e-60
+  WP_001226893.1 heme uptake protein IsdC [Bacillus cereus] ADK07...  195     4e-60
+  WP_044334420.1 heme uptake protein IsdC [Bacillus safensis] KIZ...  194     4e-60
+  WP_069889185.1 heme uptake protein IsdC [Listeria monocytogenes...  194     4e-60
+  WP_086421256.1 heme uptake protein IsdC [Bacillus thuringiensis...  195     5e-60
+  WP_061132075.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  195     5e-60
+  WP_070283871.1 heme uptake protein IsdC [Listeria monocytogenes...  194     5e-60
+  WP_001226896.1 heme uptake protein IsdC [Bacillus cereus] KMP16...  195     5e-60
+  KGA97177.1 hypothetical protein BALCAV_0211715 [Bacillus alcalo...  194     5e-60
+  WP_098821597.1 heme uptake protein IsdC [Bacillus toyonensis] P...  195     5e-60
+  KIL12792.1 hypothetical protein B4129_3081 [Bacillus safensis]      194     5e-60
+  WP_076856091.1 heme uptake protein IsdC [Bacillus cereus] ONG70...  195     5e-60
+  KDE28601.1 hypothetical protein BA81_07434 [Bacillus safensis F...  194     5e-60
+  WP_061535690.1 heme uptake protein IsdC [Bacillus cereus] KXY12...  195     6e-60
+  WP_001226889.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  195     6e-60
+  CUB58968.1 Iron-regulated surface determinant protein C precurs...  195     6e-60
+  WP_097959264.1 heme uptake protein IsdC [Bacillus toyonensis] P...  194     6e-60
+  WP_001226908.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  195     6e-60
+  WP_098384491.1 heme uptake protein IsdC [Bacillus cereus] PEX94...  195     6e-60
+  WP_109470634.1 heme uptake protein IsdC [Staphylococcus aureus]...  194     7e-60
+  WP_046951951.1 heme uptake protein IsdC [Bacillus cereus] KLA18...  195     7e-60
+  WP_001225046.1 heme uptake protein IsdC [Bacillus cereus] EJS73...  194     7e-60
+  WP_003737259.1 heme uptake protein IsdC [Listeria monocytogenes...  193     8e-60
+  WP_041118468.1 heme uptake protein IsdC [Bacillus safensis]         194     8e-60
+  WP_000714737.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  194     8e-60
+  WP_073208444.1 heme uptake protein IsdC [Bacillus safensis] APJ...  194     8e-60
+  WP_103149758.1 heme uptake protein IsdC [Staphylococcus aureus]     194     8e-60
+  WP_111927025.1 heme uptake protein IsdC [Bacillus safensis] RAU...  194     8e-60
+  WP_084423103.1 heme uptake protein IsdC [Cohnella thermotolerans]   200     9e-60
+  WP_087951193.1 heme uptake protein IsdC [Bacillus thuringiensis...  194     9e-60
+  WP_001226905.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  194     9e-60
+  WP_034624143.1 heme uptake protein IsdC [Bacillus safensis] KEP...  194     1e-59
+  WP_034281463.1 heme uptake protein IsdC [Bacillus safensis] AWI...  194     1e-59
+  WP_105587962.1 heme uptake protein IsdC [Bacillus sp. MYb209] P...  194     1e-59
+  WP_001991807.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  194     1e-59
+  WP_085450552.1 heme uptake protein IsdC [Bacillus toyonensis] O...  194     1e-59
+  WP_000714740.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  194     1e-59
+  WP_041087607.1 heme uptake protein IsdC [Bacillus safensis]         193     1e-59
+  WP_065214950.1 heme uptake protein IsdC [Bacillus safensis] OBW...  193     1e-59
+  KMK69395.1 cell surface protein [Bacillus safensis]                 193     1e-59
+  WP_098540281.1 heme uptake protein IsdC [Bacillus cereus] PFN27...  194     1e-59
+  WP_076867546.1 heme uptake protein IsdC [Bacillus cereus] ONG93...  194     1e-59
+  WP_075621474.1 heme uptake protein IsdC [Bacillus safensis] APT...  193     1e-59
+  WP_017560235.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  194     1e-59
+  WP_070265652.1 heme uptake protein IsdC [Listeria monocytogenes...  193     1e-59
+  WP_098137392.1 heme uptake protein IsdC [Bacillus toyonensis] P...  194     1e-59
+  WP_046312772.1 heme uptake protein IsdC [Bacillus safensis] KKD...  193     1e-59
+  WP_000714738.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  194     1e-59
+  WP_000714739.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  194     1e-59
+  WP_070226781.1 heme uptake protein IsdC [Listeria monocytogenes...  193     1e-59
+  WP_098838200.1 heme uptake protein IsdC [Bacillus toyonensis] P...  194     2e-59
+  WP_098141498.1 heme uptake protein IsdC [Bacillus toyonensis] P...  194     2e-59
+  WP_071710417.1 heme uptake protein IsdC [Bacillus luti] OJE5211...  193     2e-59
+  WP_000714743.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  193     2e-59
+  WP_098343713.1 heme uptake protein IsdC [Bacillus cereus] PFE09...  194     2e-59
+  WP_071736754.1 heme uptake protein IsdC [Bacillus anthracis] OJ...  193     2e-59
+  WP_088097930.1 heme uptake protein IsdC [Bacillus cereus] SCN00...  194     2e-59
+  WP_056765390.1 heme uptake protein IsdC [Bacillus sp. Root920] ...  193     2e-59
+  WP_098812905.1 heme uptake protein IsdC [Bacillus toyonensis] P...  193     2e-59
+  WP_025093790.1 heme uptake protein IsdC [Bacillus safensis]         193     2e-59
+  WP_024427512.1 heme uptake protein IsdC [Bacillus safensis]         193     2e-59
+  WP_098150969.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  193     2e-59
+  WP_098903183.1 heme uptake protein IsdC [Bacillus sp. AFS094611...  193     2e-59
+  WP_098163124.1 heme uptake protein IsdC [Bacillus toyonensis] P...  193     2e-59
+  WP_070036774.1 heme uptake protein IsdC [Listeria monocytogenes...  192     2e-59
+  WP_099003605.1 heme uptake protein IsdC [Bacillus toyonensis] P...  193     2e-59
+  WP_109630264.1 heme uptake protein IsdC [Bacillus cereus] PWN76...  193     2e-59
+  WP_042745414.1 heme uptake protein IsdC [Staphylococcus aureus]     192     2e-59
+  WP_076840633.1 heme uptake protein IsdC [Bacillus sp. I-2] OMP2...  192     2e-59
+  EZV61455.1 iron-regulated surface determinant protein C [Staphy...  193     2e-59
+  WP_000789813.1 heme uptake protein IsdC [Staphylococcus aureus]...  193     2e-59
+  WP_016086035.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  193     2e-59
+  WP_098985964.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  193     2e-59
+  WP_059377302.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  192     3e-59
+  WP_061110369.1 heme uptake protein IsdC [Bacillus safensis] KXI...  192     3e-59
+  WP_098000003.1 heme uptake protein IsdC [Bacillus toyonensis] P...  193     3e-59
+  WP_098204280.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  193     3e-59
+  WP_035344234.1 heme uptake protein IsdC [Bacillus hemicellulosi...  192     3e-59
+  WP_016109165.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  193     3e-59
+  WP_070215559.1 heme uptake protein IsdC [Listeria monocytogenes...  192     3e-59
+  RGN76937.1 heme uptake protein IsdC [Bacillus cereus]               193     3e-59
+  REJ26241.1 heme uptake protein IsdC [Caldibacillus debilis]         194     3e-59
+  WP_002199217.1 heme uptake protein IsdC [Bacillus cereus] EJQ49...  193     3e-59
+  WP_117179569.1 heme uptake protein IsdC [Staphylococcus aureus]...  192     3e-59
+  WP_016092398.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  193     3e-59
+  WP_069891139.1 heme uptake protein IsdC [Listeria monocytogenes...  192     3e-59
+  WP_058838446.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  192     3e-59
+  WP_100183642.1 heme uptake protein IsdC [Staphylococcus aureus]...  192     3e-59
+  WP_000789819.1 heme uptake protein IsdC [Staphylococcus aureus]...  192     4e-59
+  WP_115295500.1 heme uptake protein IsdC [Staphylococcus aureus]...  192     4e-59
+  WP_095336628.1 heme uptake protein IsdC [Bacillus clausii] PAF1...  192     4e-59
+  WP_000714742.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  192     4e-59
+  WP_103237431.1 heme uptake protein IsdC [Staphylococcus aureus]     192     4e-59
+  WP_087982272.1 heme uptake protein IsdC [Bacillus cereus] SCN37...  192     4e-59
+  WP_001225047.1 heme uptake protein IsdC [Bacillus cereus] EJS78...  192     4e-59
+  WP_098654480.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  192     4e-59
+  WP_098677095.1 heme uptake protein IsdC [Bacillus safensis] PGC...  192     4e-59
+  WP_103131848.1 heme uptake protein IsdC [Bacillus stratospheric...  192     5e-59
+  WP_098087716.1 heme uptake protein IsdC [Bacillus toyonensis] P...  192     5e-59
+  WP_080832767.1 heme uptake protein IsdC [Cohnella sp. 6021052837]   192     5e-59
+  WP_097927510.1 heme uptake protein IsdC [Bacillus toyonensis] P...  192     5e-59
+  WP_083537570.1 MULTISPECIES: heme uptake protein IsdC [Paenibac...  193     5e-59
+  WP_098633557.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  192     5e-59
+  WP_048238035.1 heme uptake protein IsdC [Bacillus safensis] KML...  192     5e-59
+  WP_098988733.1 heme uptake protein IsdC [Bacillus cereus] PGY10...  192     6e-59
+  WP_086158721.1 heme uptake protein IsdC [Staphylococcus aureus]     191     6e-59
+  WP_070031428.1 heme uptake protein IsdC [Listeria monocytogenes...  191     6e-59
+  WP_000789811.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  192     6e-59
+  WP_078172724.1 heme uptake protein IsdC [Bacillus cereus] OOQ96...  192     6e-59
+  WP_003739549.1 heme uptake protein IsdC [Listeria monocytogenes...  191     6e-59
+  WP_078579679.1 heme uptake protein IsdC [Salipaludibacillus aga...  192     7e-59
+  WP_070145053.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  192     7e-59
+  WP_025847510.1 heme uptake protein IsdC [Paenibacillus ehimensis]   193     7e-59
+  EEM75602.1 Iron transport associated protein [Bacillus thuringi...  191     7e-59
+  SAO87790.1 surface anchored protein [Staphylococcus aureus]         191     7e-59
+  WP_087985364.1 heme uptake protein IsdC [Bacillus thuringiensis...  192     7e-59
+  WP_098268806.1 heme uptake protein IsdC [Bacillus cereus] PES93...  192     7e-59
+  WP_001226906.1 heme uptake protein IsdC [Bacillus cereus] AAU15...  192     8e-59
+  WP_097832066.1 heme uptake protein IsdC [Bacillus cereus] PDY80...  192     8e-59
+  WP_087957125.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  192     8e-59
+  WP_098691438.1 heme uptake protein IsdC [Bacillus toyonensis] P...  192     8e-59
+  WP_052419156.1 heme uptake protein IsdC [Paenibacillus sp. FSL ...  195     8e-59
+  WP_070222285.1 heme uptake protein IsdC [Listeria monocytogenes...  191     8e-59
+  WP_002160288.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  192     8e-59
+  SCS78918.1 surface anchored protein [Staphylococcus aureus]         192     9e-59
+  WP_070806926.1 heme uptake protein IsdC [Bacillus sp. ABP14] AO...  192     9e-59
+  WP_062821914.1 heme uptake protein IsdC [Bacillus cereus] KYQ01...  192     9e-59
+  WP_048562162.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  192     9e-59
+  WP_003729591.1 heme uptake protein IsdC [Listeria monocytogenes...  190     9e-59
+  WP_098312715.1 heme uptake protein IsdC [Bacillus thuringiensis...  192     9e-59
+  WP_075396089.1 MULTISPECIES: heme uptake protein IsdC [Bacillus]    192     9e-59
+  WP_016120874.1 heme uptake protein IsdC [Bacillus cereus] EOP34...  192     9e-59
+  WP_044442286.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  192     1e-58
+  SBD18709.1 surface anchored protein [Staphylococcus aureus]         192     1e-58
+  EGL95977.1 heme uptake protein IsdC [Staphylococcus aureus subs...  191     1e-58
+  WP_078182790.1 heme uptake protein IsdC [Bacillus wiedmannii] O...  191     1e-58
+  WP_094425515.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  191     1e-58
+  WP_071735191.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  191     1e-58
+  ARO60828.1 Heme uptake protein IsdC [Bacillus cereus]               189     1e-58
+  WP_002138558.1 heme uptake protein IsdC [Bacillus cereus] EJV79...  192     1e-58
+  WP_061663238.1 heme uptake protein IsdC [Bacillus cereus] KXY42...  191     1e-58
+  WP_098499722.1 heme uptake protein IsdC [Bacillus cereus] PFL20...  191     1e-58
+  WP_069887819.1 heme uptake protein IsdC [Listeria monocytogenes...  190     1e-58
+  WP_074610104.1 heme uptake protein IsdC [Bacillus cereus]           192     1e-58
+  WP_061395682.1 heme uptake protein IsdC [Staphylococcus aureus]...  191     1e-58
+  WP_064141082.1 heme uptake protein IsdC [Staphylococcus aureus]...  191     1e-58
+  WP_016102984.1 heme uptake protein IsdC [Bacillus cereus] EOO68...  191     1e-58
+  WP_090671708.1 heme uptake protein IsdC [Paenibacillus tianmuen...  192     1e-58
+  WP_088099558.1 heme uptake protein IsdC [Bacillus mycoides] SCB...  191     1e-58
+  WP_113768855.1 heme uptake protein IsdC [Bacillus sp. SRB_28] R...  191     1e-58
+  WP_095255989.1 heme uptake protein IsdC [Bacillus clausii] PAE9...  191     1e-58
+  WP_001226909.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  191     1e-58
+  WP_000789812.1 MULTISPECIES: iron-regulated surface determinant...  191     1e-58
+  WP_029265404.1 heme uptake protein IsdC [Staphylococcus aureus]     191     1e-58
+  WP_098686265.1 heme uptake protein IsdC [Staphylococcus aureus]...  191     1e-58
+  WP_098275886.1 heme uptake protein IsdC [Bacillus cereus] PFB29...  191     1e-58
+  WP_070169142.1 heme uptake protein IsdC [Bacillus wiedmannii] O...  191     1e-58
+  WP_098402081.1 heme uptake protein IsdC [Bacillus cereus] PEX47...  191     1e-58
+  WP_098521707.1 heme uptake protein IsdC [Bacillus cereus] PFM42...  191     1e-58
+  WP_088609273.1 heme uptake protein IsdC [Bacillus sp. K2I17] OW...  191     1e-58
+  WP_088563572.1 heme uptake protein IsdC [Staphylococcus aureus]...  191     1e-58
+  WP_116732562.1 heme uptake protein IsdC [Listeria monocytogenes...  190     2e-58
+  EFG57610.1 heme uptake protein IsdC [Staphylococcus aureus subs...  190     2e-58
+  WP_071771025.1 heme uptake protein IsdC [Bacillus sp. NH11B] OJ...  191     2e-58
+  WP_098635296.1 heme uptake protein IsdC [Bacillus mycoides] PFX...  191     2e-58
+  WP_088059819.1 heme uptake protein IsdC [Bacillus cereus] SCN39...  191     2e-58
+  WP_001226892.1 heme uptake protein IsdC [Bacillus thuringiensis...  191     2e-58
+  WP_000789795.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     2e-58
+  WP_031912032.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     2e-58
+  WP_006926501.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  191     2e-58
+  SQA05188.1 surface anchored protein [Staphylococcus aureus]         191     2e-58
+  WP_001225045.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  191     2e-58
+  WP_002112156.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  191     2e-58
+  WP_098344586.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  191     2e-58
+  WP_098630338.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  191     2e-58
+  WP_048544308.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  191     2e-58
+  WP_097851387.1 heme uptake protein IsdC [Bacillus anthracis] PD...  190     2e-58
+  WP_097855492.1 heme uptake protein IsdC [Bacillus cereus] PED04...  191     2e-58
+  WP_016106303.1 heme uptake protein IsdC [Bacillus cereus] EOP64...  191     2e-58
+  WP_039183381.1 heme uptake protein IsdC [Bacillus sp. WP8] AIZ6...  190     2e-58
+  WP_064128318.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     2e-58
+  WP_070753806.1 heme uptake protein IsdC [Listeria monocytogenes...  190     2e-58
+  WP_113613025.1 heme uptake protein IsdC [Staphylococcus aureus]     190     2e-58
+  SBB05950.1 surface anchored protein [Staphylococcus aureus]         190     2e-58
+  WP_098586000.1 heme uptake protein IsdC [Bacillus cereus] PFO69...  190     2e-58
+  WP_111120750.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     2e-58
+  WP_085312475.1 heme uptake protein IsdC [Bacillus mycoides] ARJ...  190     2e-58
+  WP_098768893.1 heme uptake protein IsdC [Bacillus cereus] PGT18...  190     2e-58
+  WP_088300170.1 heme uptake protein IsdC [Bacillus cereus]           190     2e-58
+  WP_088040218.1 heme uptake protein IsdC [Bacillus mycoides] SCB...  190     2e-58
+  CUB15337.1 Iron-regulated surface determinant protein C precurs...  190     2e-58
+  WP_075702828.1 heme uptake protein IsdC [Listeria seeligeri] OL...  190     2e-58
+  WP_001225044.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     2e-58
+  WP_000757948.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     2e-58
+  WP_097844321.1 heme uptake protein IsdC [Bacillus cereus] PDZ67...  190     2e-58
+  WP_095337068.1 heme uptake protein IsdC, partial [Staphylococcu...  190     2e-58
+  WP_064126073.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     2e-58
+  WP_098133590.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  190     2e-58
+  WP_098955140.1 heme uptake protein IsdC [Bacillus cereus] PGX27...  190     2e-58
+  WP_003767961.1 MULTISPECIES: heme uptake protein IsdC [Listeria...  189     3e-58
+  WP_029549713.1 iron-regulated surface determinant protein C [St...  190     3e-58
+  WP_098089244.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  190     3e-58
+  WP_046958762.1 heme uptake protein IsdC [Bacillus wiedmannii] K...  190     3e-58
+  WP_097905790.1 heme uptake protein IsdC [Bacillus cereus] PEC19...  190     3e-58
+  WP_098989888.1 heme uptake protein IsdC [Bacillus cereus] PGZ09...  190     3e-58
+  WP_000789828.1 MULTISPECIES: heme uptake protein IsdC [Staphylo...  190     3e-58
+  WP_000789815.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     3e-58
+  WP_088315498.1 heme uptake protein IsdC [Bacillus cereus]           190     3e-58
+  WP_042980206.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     3e-58
+  WP_035389934.1 heme uptake protein IsdC [Bacillus sp. UNC125MFC...  190     3e-58
+  OQR53874.1 heme uptake protein IsdC [Bacillus sp. CDB3]             190     3e-58
+  WP_088064535.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     3e-58
+  WP_002145463.1 heme uptake protein IsdC [Bacillus cereus] EJQ84...  190     3e-58
+  WP_000789827.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     3e-58
+  WP_098057867.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  190     3e-58
+  WP_086095846.1 heme uptake protein IsdC [Staphylococcus aureus]     190     3e-58
+  WP_098271771.1 heme uptake protein IsdC [Bacillus cereus] PES63...  190     3e-58
+  WP_098200073.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  190     3e-58
+  WP_033533817.1 heme uptake protein IsdC [Listeria innocua] REA9...  189     3e-58
+  WP_098779539.1 heme uptake protein IsdC [Bacillus cereus] PGM87...  190     3e-58
+  WP_088028324.1 heme uptake protein IsdC [Bacillus cereus] SMD94...  190     3e-58
+  WP_087954149.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     3e-58
+  WP_098286541.1 heme uptake protein IsdC [Bacillus cereus] PER10...  190     3e-58
+  EFS02446.1 heme uptake protein IsdC [Listeria seeligeri FSL S4-...  189     3e-58
+  WP_108957723.1 heme uptake protein IsdC [Staphylococcus aureus]     190     3e-58
+  WP_071728176.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     3e-58
+  WP_000757940.1 heme uptake protein IsdC [Bacillus cereus] EJR86...  190     3e-58
+  WP_044796485.1 heme uptake protein IsdC [Bacillus cereus]           190     3e-58
+  WP_001226901.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     3e-58
+  WP_000789820.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     3e-58
+  WP_064212444.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     3e-58
+  WP_098220467.1 heme uptake protein IsdC [Bacillus cereus] PES75...  190     3e-58
+  KIL14922.1 hypothetical protein B4107_3647 [Bacillus safensis]      190     3e-58
+  WP_114890011.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     3e-58
+  WP_098367917.1 heme uptake protein IsdC [Bacillus anthracis] PE...  190     3e-58
+  WP_025709903.1 heme uptake protein IsdC [Bacillus cereus] ASI74...  190     3e-58
+  WP_064474634.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     3e-58
+  WP_031865507.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     3e-58
+  WP_075313675.1 heme uptake protein IsdC [Bacillus wiedmannii]       190     3e-58
+  WP_098321417.1 heme uptake protein IsdC [Bacillus anthracis] PF...  190     3e-58
+  WP_071748251.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     3e-58
+  WP_098116199.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  190     3e-58
+  WP_003763505.1 MULTISPECIES: heme uptake protein IsdC [Listeria...  189     3e-58
+  ASZ68260.1 heme uptake protein IsdC [Bacillus cereus]               190     3e-58
+  WP_012681408.1 heme uptake protein IsdC [Listeria monocytogenes...  189     3e-58
+  WP_098686522.1 heme uptake protein IsdC [Bacillus cereus] PFW29...  190     3e-58
+  WP_025028711.1 heme uptake protein IsdC [Bacillus mannanilyticus]   190     4e-58
+  WP_078179643.1 heme uptake protein IsdC [Bacillus cereus] OOR30...  190     4e-58
+  WP_063224754.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     4e-58
+  WP_000789808.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     4e-58
+  WP_031898594.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     4e-58
+  WP_061736198.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     4e-58
+  WP_012986251.1 heme uptake protein IsdC [Listeria seeligeri] CB...  189     4e-58
+  WP_103245983.1 heme uptake protein IsdC [Staphylococcus aureus]     190     4e-58
+  WP_000789816.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     4e-58
+  WP_060632467.1 heme uptake protein IsdC [Bacillus thuringiensis...  190     4e-58
+  WP_001226904.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     4e-58
+  WP_003749105.1 heme uptake protein IsdC [Listeria seeligeri] EF...  189     4e-58
+  WP_046326048.1 heme uptake protein IsdC [Listeria seeligeri] KK...  189     4e-58
+  EYN50574.1 iron-regulated surface determinant protein C [Staphy...  189     4e-58
+  WP_071720518.1 heme uptake protein IsdC [Bacillus mobilis] OJE4...  190     4e-58
+  WP_061823974.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     4e-58
+  WP_000789809.1 MULTISPECIES: iron-regulated surface determinant...  190     4e-58
+  WP_002122904.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     4e-58
+  WP_070004118.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     4e-58
+  WP_097907786.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  190     4e-58
+  WP_016118697.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     4e-58
+  WP_086041144.1 heme uptake protein IsdC [Staphylococcus aureus]     190     4e-58
+  WP_098238386.1 heme uptake protein IsdC [Bacillus cereus] PER26...  190     4e-58
+  WP_111011845.1 heme uptake protein IsdC [Staphylococcus aureus]...  190     4e-58
+  WP_031837899.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     4e-58
+  WP_098962474.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  190     4e-58
+  WP_097862392.1 heme uptake protein IsdC [Bacillus cereus] PDY05...  190     5e-58
+  WP_098543569.1 heme uptake protein IsdC [Bacillus cereus] PFJ17...  190     5e-58
+  WP_117207447.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     5e-58
+  WP_072511807.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     5e-58
+  WP_044306647.1 heme uptake protein IsdC [Bacillus cereus] KIZ30...  190     5e-58
+  WP_088002712.1 heme uptake protein IsdC [Bacillus pumilus] OUZ0...  189     5e-58
+  WP_044165347.1 heme uptake protein IsdC, partial [Staphylococcu...  188     5e-58
+  WP_097351841.1 heme uptake protein IsdC [Listeria monocytogenes...  189     5e-58
+  WP_074790358.1 heme uptake protein IsdC [Bacillus thuringiensis...  190     5e-58
+  WP_117207876.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     5e-58
+  WP_016718629.1 heme uptake protein IsdC [Bacillus cereus] KXI50...  190     5e-58
+  WP_012261784.1 heme uptake protein IsdC [Bacillus mycoides] ABY...  190     5e-58
+  WP_041816388.1 heme uptake protein IsdC [Bacillus pumilus] ALS3...  189     5e-58
+  PNZ59235.1 heme uptake protein IsdC [Staphylococcus aureus subs...  189     5e-58
+  WP_000757954.1 heme uptake protein IsdC [Bacillus cereus] EEL74...  190     5e-58
+  WP_000757953.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     5e-58
+  WP_031874150.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     5e-58
+  WP_115209879.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     5e-58
+  WP_000757939.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     5e-58
+  WP_064826526.1 heme uptake protein IsdC [Bacillus anthracis]        190     5e-58
+  WP_031864444.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     5e-58
+  WP_114555675.1 heme uptake protein IsdC [Bacillus sp. K6W]          190     6e-58
+  WP_098110267.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  190     6e-58
+  WP_095410072.1 heme uptake protein IsdC [Bacillus safensis] OYN...  189     6e-58
+  WP_098606639.1 heme uptake protein IsdC [Bacillus cereus] PFT93...  190     6e-58
+  WP_065222757.1 heme uptake protein IsdC [Bacillus cereus] OBW57...  190     6e-58
+  WP_044790616.1 heme uptake protein IsdC [Bacillus thuringiensis]    190     6e-58
+  WP_103261304.1 heme uptake protein IsdC [Staphylococcus aureus]     189     6e-58
+  WP_103152964.1 heme uptake protein IsdC [Staphylococcus aureus]     189     6e-58
+  WP_047202944.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     6e-58
+  WP_094970533.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     6e-58
+  WP_076875941.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  190     6e-58
+  WP_113709337.1 heme uptake protein IsdC [Bacillus sp. SRB_8] RA...  190     6e-58
+  WP_000789818.1 iron-regulated surface determinant protein C [St...  189     6e-58
+  WP_098084246.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  189     6e-58
+  WP_072497118.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     6e-58
+  WP_029419314.1 heme uptake protein IsdC [Bacillus sonorensis]       189     6e-58
+  WP_088834289.1 heme uptake protein IsdC [Paenibacillus elgii]       190     6e-58
+  WP_063225799.1 heme uptake protein IsdC [Bacillus mycoides] KZE...  190     6e-58
+  WP_063218392.1 heme uptake protein IsdC [Bacillus cereus] KZD39...  190     6e-58
+  WP_006637681.1 heme uptake protein IsdC [Bacillus sonorensis] E...  189     6e-58
+  WP_061735610.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     6e-58
+  WP_001573144.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     6e-58
+  WP_100185086.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     7e-58
+  WP_000789821.1 MULTISPECIES: iron-regulated surface determinant...  189     7e-58
+  WP_003724604.1 heme uptake protein IsdC [Listeria monocytogenes...  188     7e-58
+  WP_000757950.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     7e-58
+  WP_098644317.1 heme uptake protein IsdC [Bacillus toyonensis] P...  189     7e-58
+  AHJ59525.1 putative heme uptake protein IsdC [Bacillus pumilus]     189     7e-58
+  WP_064136162.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     7e-58
+  WP_000789810.1 iron-regulated surface determinant protein C [St...  189     7e-58
+  WP_098944739.1 heme uptake protein IsdC [Bacillus anthracis] PG...  189     7e-58
+  WP_000757951.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     7e-58
+  WP_000757941.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     7e-58
+  WP_000757952.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     7e-58
+  WP_078175940.1 heme uptake protein IsdC [Bacillus mycoides] OOR...  190     7e-58
+  WP_046377062.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     7e-58
+  WP_001572228.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     7e-58
+  EKF36958.1 hypothetical protein BA1_02790 [Bacillus xiamenensis]    189     7e-58
+  WP_001622427.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     7e-58
+  WP_000789824.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     7e-58
+  WP_098436041.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     7e-58
+  WP_041108533.1 heme uptake protein IsdC [Bacillus safensis]         188     7e-58
+  WP_072467392.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     7e-58
+  EEL68739.1 Iron transport associated protein [Bacillus mycoides]    189     7e-58
+  WP_048531562.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     7e-58
+  WP_097818331.1 heme uptake protein IsdC [Bacillus cereus] PDZ05...  189     7e-58
+  WP_117206699.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     8e-58
+  WP_000757960.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     8e-58
+  WP_060486521.1 heme uptake protein IsdC [Bacillus wiedmannii] K...  189     8e-58
+  OMG50047.1 heme uptake protein IsdC [Paenibacillus macerans]        190     8e-58
+  REJ15995.1 heme uptake protein IsdC [Caldibacillus debilis]         189     8e-58
+  WP_003727847.1 heme uptake protein IsdC [Listeria monocytogenes...  188     8e-58
+  WP_098201987.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  189     8e-58
+  WP_114621420.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     8e-58
+  WP_088034080.1 heme uptake protein IsdC [Bacillus thuringiensis...  189     8e-58
+  WP_000789826.1 iron-regulated surface determinant protein C [St...  189     8e-58
+  WP_050974155.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     8e-58
+  WP_098048072.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  189     8e-58
+  WP_113759159.1 heme uptake protein IsdC, partial [Bacillus cere...  188     8e-58
+  WP_111148388.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     9e-58
+  WP_088045175.1 heme uptake protein IsdC [Bacillus mycoides] OTY...  189     9e-58
+  EEL15064.1 Iron transport associated protein [Bacillus cereus 9...  188     9e-58
+  OUB34114.1 heme uptake protein IsdC [Bacillus thuringiensis ser...  189     9e-58
+  WP_076540569.1 heme uptake protein IsdC [Bacillus cereus] SIR43...  189     9e-58
+  WP_114291049.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     9e-58
+  WP_064132004.1 heme uptake protein IsdC [Staphylococcus aureus]...  189     9e-58
+  WP_070772424.1 heme uptake protein IsdC [Listeria monocytogenes...  188     9e-58
+  WP_098760641.1 heme uptake protein IsdC [Bacillus anthracis] PG...  189     9e-58
+  WP_000789825.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     9e-58
+  WP_000757947.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     9e-58
+  WP_097821752.1 heme uptake protein IsdC [Bacillus thuringiensis...  189     9e-58
+  WP_098593676.1 heme uptake protein IsdC [Bacillus anthracis] PF...  189     9e-58
+  WP_065703089.1 heme uptake protein IsdC [Bacillus thuringiensis...  189     9e-58
+  WP_061401623.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     9e-58
+  WP_000757943.1 heme uptake protein IsdC [Bacillus cereus] EJR87...  189     9e-58
+  WP_000757959.1 heme uptake protein IsdC [Bacillus thuringiensis...  189     9e-58
+  AVI43166.1 heme uptake protein IsdC [Bacillus pumilus]              188     9e-58
+  WP_098596422.1 heme uptake protein IsdC [Bacillus cereus] PFS67...  189     9e-58
+  OLP66954.1 hypothetical protein BACPU_03130 [Bacillus pumilus]      188     9e-58
+  WP_082390639.1 heme uptake protein IsdC [Paenibacillus pinihumi]    191     1e-57
+  ATI49713.1 heme uptake protein IsdC [Bacillus cereus]               189     1e-57
+  WP_071715222.1 heme uptake protein IsdC [Bacillus sp. N35-10-4]...  189     1e-57
+  WP_088291020.1 heme uptake protein IsdC [Bacillus mycoides]         189     1e-57
+  WP_117224129.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_073516665.1 heme uptake protein IsdC [Bacillus cereus] SCC49...  189     1e-57
+  WP_097853882.1 heme uptake protein IsdC [Bacillus thuringiensis...  189     1e-57
+  WP_036693180.1 heme uptake protein IsdC [Paenibacillus tyrfis] ...  190     1e-57
+  WP_053862394.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_098221218.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  189     1e-57
+  WP_036626090.1 heme uptake protein IsdC [Paenibacillus macerans...  190     1e-57
+  WP_115211051.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_072460398.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_000757961.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     1e-57
+  WP_001663847.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_073978801.1 heme uptake protein IsdC [Bacillus pumilus] CUB1...  188     1e-57
+  WP_000757949.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  189     1e-57
+  WP_063675789.1 heme uptake protein IsdC [Bacillus thuringiensis...  189     1e-57
+  WP_072527404.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_061884650.1 heme uptake protein IsdC [Bacillus thuringiensis...  189     1e-57
+  WP_098324691.1 heme uptake protein IsdC [Bacillus cereus] PFE41...  189     1e-57
+  WP_000789817.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_111071207.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_098611351.1 heme uptake protein IsdC [Bacillus cereus] PFQ52...  189     1e-57
+  WP_117214185.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_000789823.1 iron-regulated surface determinant protein C [St...  188     1e-57
+  WP_072491506.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_104408694.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_086152744.1 heme uptake protein IsdC [Staphylococcus aureus]     188     1e-57
+  WP_062745750.1 heme uptake protein IsdC [Bacillus clausii]          188     1e-57
+  WP_001588593.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_031875931.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_069029441.1 heme uptake protein IsdC [Listeria monocytogenes...  188     1e-57
+  WP_000757955.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  188     1e-57
+  WP_070973854.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_034738274.1 heme uptake protein IsdC [Bacillus xiamenensis] ...  188     1e-57
+  WP_098349202.1 heme uptake protein IsdC [Bacillus cereus] PEZ90...  188     1e-57
+  WP_076821546.1 heme uptake protein IsdC [Bacillus sp. RRD69] SI...  188     1e-57
+  WP_046945870.1 heme uptake protein IsdC [Bacillus cereus] KLA28...  188     1e-57
+  WP_046956247.1 heme uptake protein IsdC [Bacillus cereus] KLA24...  188     1e-57
+  WP_041204275.1 heme uptake protein IsdC [Staphylococcus aureus]     188     1e-57
+  WP_061388941.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     1e-57
+  WP_090834999.1 heme uptake protein IsdC [Bacillus sp. ok634] SF...  189     1e-57
+  WP_103148474.1 heme uptake protein IsdC [Staphylococcus aureus]     188     1e-57
+  WP_098382244.1 heme uptake protein IsdC [Bacillus cereus] PEX68...  188     1e-57
+  WP_097889219.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  188     2e-57
+  WP_111053388.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     2e-57
+  WP_117346108.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     2e-57
+  WP_063652056.1 heme uptake protein IsdC [Staphylococcus aureus]     188     2e-57
+  WP_053865302.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     2e-57
+  WP_103653370.1 heme uptake protein IsdC [Bacillus thuringiensis]    188     2e-57
+  WP_061656415.1 heme uptake protein IsdC [Bacillus cereus] KXY35...  188     2e-57
+  WP_098814598.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  188     2e-57
+  WP_001226900.1 heme uptake protein IsdC [Bacillus cereus] PFW58...  188     2e-57
+  WP_061688736.1 heme uptake protein IsdC [Bacillus cereus] KXY46...  188     2e-57
+  WP_115293790.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     2e-57
+  WP_099684264.1 heme uptake protein IsdC [Bacillus sp. 100374] P...  188     2e-57
+  WP_098111478.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  188     2e-57
+  WP_111142521.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     2e-57
+  WP_060829058.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     2e-57
+  WP_000789822.1 MULTISPECIES: iron-regulated surface determinant...  188     2e-57
+  WP_000757962.1 heme uptake protein IsdC [Bacillus cereus] EEK48...  188     2e-57
+  WP_064133532.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     2e-57
+  WP_074593622.1 heme uptake protein IsdC [Bacillus cereus]           188     2e-57
+  WP_048551266.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  188     2e-57
+  WP_016080121.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  188     2e-57
+  WP_048656156.1 heme uptake protein IsdC [Bacillus cereus] CGF90...  188     2e-57
+  WP_023523143.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  188     2e-57
+  WP_000757944.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  188     2e-57
+  WP_098640907.1 heme uptake protein IsdC [Bacillus thuringiensis...  188     2e-57
+  WP_098649191.1 heme uptake protein IsdC [Bacillus wiedmannii] P...  188     2e-57
+  WP_098361460.1 heme uptake protein IsdC [Bacillus thuringiensis...  188     2e-57
+  WP_031885987.1 heme uptake protein IsdC [Staphylococcus aureus]...  188     2e-57
+  WP_098608617.1 heme uptake protein IsdC [Bacillus cereus] PFR49...  188     2e-57
+  WP_070786489.1 heme uptake protein IsdC [Listeria monocytogenes...  187     2e-57
+  WP_097952028.1 heme uptake protein IsdC [Bacillus cereus] PEC82...  188     2e-57
+  WP_000757957.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  188     2e-57
+  WP_000757956.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  188     2e-57
+  WP_098228544.1 heme uptake protein IsdC [Bacillus anthracis] PE...  188     2e-57
+  WP_086397215.1 heme uptake protein IsdC [Bacillus thuringiensis...  188     2e-57
+  WP_088123480.1 heme uptake protein IsdC [Bacillus cereus] SCC62...  188     2e-57
+  WP_002034251.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  188     2e-57
+  WP_000757958.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  188     2e-57
+  WP_098167949.1 heme uptake protein IsdC [Bacillus mycoides] PEK...  188     2e-57
+  WP_061666232.1 MULTISPECIES: heme uptake protein IsdC [Bacillus...  188     2e-57
+
+Sequences not found previously or not previously below threshold:
+
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.148    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0454    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1516347336650
+
+
+  Database: nr
+    Posted date:  Sep 26, 2018  12:06 AM
+  Number of letters in database: 62,044,927,414
+  Number of sequences in database:  169,859,411
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
+Number of sequences better than 1.0e-05: 500
